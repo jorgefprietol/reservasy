@@ -1,0 +1,5 @@
+[28-Jan-2020 20:48:19 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'ip-107-180-39-243.ip.secureserver.net' is not allowed to connect to this MySQL server in /home/xebloxvgfx88/public_html/yanbal/lib/Database/MySQL/MySqlConnection.php on line 60
+[28-Jan-2020 20:48:19 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, bool given in /home/xebloxvgfx88/public_html/yanbal/lib/Database/MySQL/MySqlConnection.php on line 61
+[28-Jan-2020 20:48:19 UTC] PHP Warning:  mysqli_set_charset() expects parameter 1 to be mysqli, bool given in /home/xebloxvgfx88/public_html/yanbal/lib/Database/MySQL/MySqlConnection.php on line 62
+[28-Jan-2020 20:48:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/xebloxvgfx88/public_html/yanbal/lib/Database/MySQL/MySqlConnection.php on line 66
+[28-Jan-2020 20:48:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, bool given in /home/xebloxvgfx88/public_html/yanbal/lib/Database/MySQL/MySqlConnection.php on line 67

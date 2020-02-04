@@ -1,0 +1,34 @@
+{*
+Copyright 2020 Prieto Linares, Jorge Fidel
+
+This file is part of Agenda Capacitaciones Yanbal.
+
+Agenda Capacitaciones Yanbal is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Agenda Capacitaciones Yanbal is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licenses/>.
+*}
+<div class="clear"></div>
+<div id="chart-indicator" style="display:none; text-align: center;">
+	<h3>{translate key=Working}</h3>
+{html_image src="admin-ajax-indicator.gif"}
+</div>
+
+<div id="chartdiv" style="display:none;margin:auto;height:400px;width:80%"></div>
+
+<!--[if lt IE 9]>{jsfile src="js/jqplot/excanvas.js"}<![endif]-->
+{jsfile src="js/jqplot/jquery.jqplot.min.js"}
+{jsfile src="js/jqplot/plugins/jqplot.barRenderer.min.js"}
+{jsfile src="js/jqplot/plugins/jqplot.categoryAxisRenderer.min.js"}
+{jsfile src="js/jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js"}
+{jsfile src="js/jqplot/plugins/jqplot.canvasTextRenderer.min.js"}
+{jsfile src="js/jqplot/plugins/jqplot.pointLabels.min.js"}
+{jsfile src="js/jqplot/plugins/jqplot.dateAxisRenderer.min.js"}

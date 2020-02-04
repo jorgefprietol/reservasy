@@ -1,0 +1,279 @@
+<?php
+/**
+ * Copyright 2020 Prieto Linares, Jorge Fidel
+ *
+ * This file is part of Agenda Capacitaciones Yanbal.
+ *
+ * Agenda Capacitaciones Yanbal is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Agenda Capacitaciones Yanbal is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+require_once(ROOT_DIR . 'config/timezones.php');
+require_once(ROOT_DIR . 'Pages/Admin/AdminPage.php');
+require_once(ROOT_DIR . 'lib/Config/Configurator.php');
+require_once(ROOT_DIR . 'Presenters/Admin/ManageConfigurationPresenter.php');
+
+interface IManageConfigurationPage extends IActionPage
+{
+    /**
+     * @param bool $isPageEnabled
+     */
+    public function SetIsPageEnabled($isPageEnabled);
+
+    /**
+     * @param bool $isFileWritable
+     */
+    public function SetIsConfigFileWritable($isFileWritable);
+
+    /**
+     * @param ConfigSetting $configSetting
+     */
+    public function AddSetting(ConfigSetting $configSetting);
+
+    /**
+     * @param ConfigSetting $configSetting
+     */
+    public function AddSectionSetting(ConfigSetting $configSetting);
+
+    /**
+     * @return array|ConfigSetting[]
+     */
+    public function GetSubmittedSettings();
+
+    /**
+     * @param ConfigFileOption[] $configFiles
+     */
+    public function SetConfigFileOptions($configFiles);
+
+    /**
+     * @return string
+     */
+    public function GetConfigFileToEdit();
+
+    /**
+     * @param string $configFileName
+     */
+    public function SetSelectedConfigFile($configFileName);
+
+    /**
+     * @param string[] $homepageValues
+     * @param string[] $homepageOutput
+     */
+    public function SetHomepages($homepageValues, $homepageOutput);
+
+    /**
+     * @param string $scriptUrl
+     * @param string $suggestedUrl
+     */
+    public function ShowScriptUrlWarning($scriptUrl, $suggestedUrl);
+
+    /**
+     * @param string[] $values
+     */
+    public function SetAuthenticationPluginValues($values);
+
+    /**
+     * @param string[] $values
+     */
+    public function SetAuthorizationPluginValues($values);
+
+    /**
+     * @param string[] $values
+     */
+    public function SetPermissionPluginValues($values);
+
+    /**
+     * @param string[] $values
+     */
+    public function SetPostRegistrationPluginValues($values);
+
+    /**
+     * @param string[] $values
+     */
+    public function SetPreReservationPluginValues($values);
+
+    /**
+     * @param string[] $values
+     */
+    public function SetPostReservationPluginValues($values);
+
+    /**
+     * @return int
+     */
+    public function GetHomePageId();
+}
+
+class ManageConfigurationPage extends ActionPage implements IManageConfigurationPage
+{
+    /**
+     * @var ManageConfigurationPresenter
+     */
+    private $presenter;
+
+    /**
+     * @var array|ConfigSetting[]
+     */
+    private $settings;
+
+    /**
+     * @var array|ConfigSetting[]
+     */
+    private $sectionSettings;
+
+    /**
+     * @var StringBuilder
+     */
+    private $settingNames;
+
+    public function __construct()
+    {
+        parent::__construct('ManageConfiguration', 1);
+        $this->presenter = new ManageConfigurationPresenter($this, new Configurator());
+        $this->settingNames = new StringBuilder();
+    }
+
+    public function ProcessAction()
+    {
+        $this->presenter->ProcessAction();
+    }
+
+    public function ProcessDataRequest($dataRequest)
+    {
+        // no-op
+    }
+
+    public function ProcessPageLoad()
+    {
+        $this->Set('IsConfigFileWritable', true);
+
+        $this->presenter->PageLoad();
+        $this->Set('Settings', $this->settings);
+        $this->Set('SectionSettings', $this->sectionSettings);
+        $this->PopulateTimezones();
+        $this->Set('Languages', Resources::GetInstance()->AvailableLanguages);
+        $this->Set('SettingNames', $this->settingNames->ToString());
+
+        $this->Display('Admin/Configuration/manage_configuration.tpl');
+    }
+
+    public function SetIsPageEnabled($isPageEnabled)
+    {
+        $this->Set('IsPageEnabled', $isPageEnabled);
+    }
+
+    public function SetIsConfigFileWritable($isFileWritable)
+    {
+        $this->Set('IsConfigFileWritable', $isFileWritable);
+    }
+
+    public function AddSetting(ConfigSetting $configSetting)
+    {
+        $this->settings[] = $configSetting;
+        $this->settingNames->Append($configSetting->Name . ',');
+    }
+
+    public function AddSectionSetting(ConfigSetting $configSetting)
+    {
+        $this->sectionSettings[$configSetting->Section][] = $configSetting;
+        $this->settingNames->Append($configSetting->Name . ',');
+    }
+
+    private function PopulateTimezones()
+    {
+        $timezoneValues = array();
+        $timezoneOutput = array();
+
+        foreach ($GLOBALS['APP_TIMEZONES'] as $timezone) {
+            $timezoneValues[] = $timezone;
+            $timezoneOutput[] = $timezone;
+        }
+
+        $this->Set('TimezoneValues', $timezoneValues);
+        $this->Set('TimezoneOutput', $timezoneOutput);
+    }
+
+    public function GetSubmittedSettings()
+    {
+        $settingNames = $this->GetRawForm('setting_names');
+        $settings = explode(',', $settingNames);
+        $submittedSettings = array();
+        foreach ($settings as $setting) {
+            $setting = trim($setting);
+            if (!empty($setting)) {
+//				Log::Debug("%s=%s", $setting, $this->GetForm($setting));
+                $submittedSettings[] = ConfigSetting::ParseForm($setting, stripslashes($this->GetRawForm($setting)));
+            }
+        }
+
+        return $submittedSettings;
+    }
+
+    public function SetHomepages($homepageValues, $homepageOutput)
+    {
+        $this->Set('HomepageValues', $homepageValues);
+        $this->Set('HomepageOutput', $homepageOutput);
+    }
+
+    public function SetConfigFileOptions($configFiles)
+    {
+        $this->Set('ConfigFiles', $configFiles);
+    }
+
+    public function GetConfigFileToEdit()
+    {
+        return $this->GetQuerystring(QueryStringKeys::CONFIG_FILE);
+    }
+
+    public function SetSelectedConfigFile($configFileName)
+    {
+        $this->Set('SelectedFile', $configFileName);
+    }
+
+    public function ShowScriptUrlWarning($currentScriptUrl, $suggestedScriptUrl)
+    {
+        $this->Set('CurrentScriptUrl', $currentScriptUrl);
+        $this->Set('SuggestedScriptUrl', $suggestedScriptUrl);
+        $this->Set('ShowScriptUrlWarning', true);
+    }
+
+    public function SetAuthenticationPluginValues($values)
+    {
+        $this->Set('AuthenticationPluginValues', $values);
+    }
+
+    public function SetAuthorizationPluginValues($values)
+    {
+        $this->Set('AuthorizationPluginValues', $values);
+    }
+    public function SetPermissionPluginValues($values)
+    {
+        $this->Set('PermissionPluginValues', $values);
+    }
+    public function SetPostRegistrationPluginValues($values)
+    {
+        $this->Set('PostRegistrationPluginValues', $values);
+    }
+    public function SetPreReservationPluginValues($values)
+    {
+        $this->Set('PreReservationPluginValues', $values);
+    }
+    public function SetPostReservationPluginValues($values)
+    {
+        $this->Set('PostReservationPluginValues', $values);
+    }
+
+    public function GetHomePageId()
+    {
+       return $this->GetForm('homepage_id');
+    }
+}

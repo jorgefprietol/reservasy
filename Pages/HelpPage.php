@@ -1,0 +1,53 @@
+<?php
+/**
+Copyright 2020 Prieto Linares, Jorge Fidel
+
+This file is part of Agenda Capacitaciones Yanbal.
+
+Agenda Capacitaciones Yanbal is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Agenda Capacitaciones Yanbal is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+require_once(ROOT_DIR . 'Pages/Page.php');
+
+class HelpPage extends Page
+{
+	public function __construct()
+	{
+		parent::__construct('Help');
+	}
+
+	public function PageLoad()
+	{
+		$this->Set('RemindersPath', realpath(ROOT_DIR . 'Jobs/sendreminders.php'));
+		$this->Set('AutoReleasePath', realpath(ROOT_DIR . 'Jobs/autorelease.php'));
+		$this->Set('WaitListPath', realpath(ROOT_DIR . 'Jobs/sendwaitlist.php'));
+		$this->Set('MissedCheckinPath', realpath(ROOT_DIR . 'Jobs/sendmissedcheckin.php'));
+		$this->Set('ServerTimezone', date_default_timezone_get());
+
+		$helpType = $this->GetQuerystring('ht');
+
+		if ($helpType == 'about')
+		{
+			$this->DisplayLocalized('support-and-credits.tpl');
+		}
+		else if ($helpType == 'admin')
+		{
+			$this->DisplayLocalized('help-admin.tpl');
+		}
+		else
+		{
+			$this->DisplayLocalized('help.tpl');
+		}
+	}
+}
