@@ -1,7 +1,7 @@
-# reservasy
+# Capacitacionesy
 
 
-http://reservasy.azurewebsites.net/Web
+http://Capacitacionesy.azurewebsites.net/Web
 
 
 http://terasoftec.com/yanbal/

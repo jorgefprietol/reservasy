@@ -23,7 +23,7 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 *}
 
 
-	Rincian reservasi:
+	Rincian Capacitacionesi:
 	<br/>
 	<br/>
 
@@ -48,7 +48,7 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 	{if count($RepeatDates) gt 0}
 		<br/>
-		Reservasi diulang sampai tanggal:
+		Capacitacionesi diulang sampai tanggal:
 		<br/>
 	{/if}
 
@@ -65,9 +65,9 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 	{if $RequiresApproval}
 		<br/>
-		Satu atau resource lain yang direservasi membutuhkan persetujuan sebelum digunakan. Reservasi ini akan ditunda sampai disetujui.
+		Satu atau resource lain yang diCapacitacionesi membutuhkan persetujuan sebelum digunakan. Capacitacionesi ini akan ditunda sampai disetujui.
 	{/if}
 
 	<br/>
-	<a href="{$ScriptUrl}/{$ReservationUrl}">Lihat reservasi ini</a> | <a href="{$ScriptUrl}">Masuk Agenda Capacitaciones Yanbal</a>
+	<a href="{$ScriptUrl}/{$ReservationUrl}">Lihat Capacitacionesi ini</a> | <a href="{$ScriptUrl}">Masuk Agenda Capacitaciones Yanbal</a>
 

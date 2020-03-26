@@ -6,7 +6,7 @@
  *
  * @category Configuration
  * @package  Config
- * @author   Bertrand Mansion <bmansion@mamasam.com>
+ * @author   Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
  * @license  http://www.php.net/license PHP License
  * @link     http://pear.php.net/package/Config
  */
@@ -20,7 +20,7 @@
  *
  * @category Configuration
  * @package  Config
- * @author   Bertrand Mansion <bmansion@mamasam.com>
+ * @author   Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
  * @license  http://www.php.net/license PHP License
  * @link     http://pear.php.net/package/Config
  */

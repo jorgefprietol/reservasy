@@ -32,7 +32,7 @@ function content_5e309876b07740_83073243 (Smarty_Internal_Template $_smarty_tpl)
 	Fin: <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['formatdate'][0][0]->FormatDate(array('date'=>$_smarty_tpl->tpl_vars['EndDate']->value,'key'=>'reservation_email'),$_smarty_tpl);?>
 <br/>
 	<?php if (count($_smarty_tpl->tpl_vars['ResourceNames']->value) > 1) {?>
-		Recursos:<br/>
+		Salas:<br/>
 		<?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['ResourceNames']->value, 'resourceName');
 if ($_from !== null) {
@@ -120,7 +120,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
 	<?php if ($_smarty_tpl->tpl_vars['RequiresApproval']->value) {?>
 		<br/>
-		Uno o más recursos reservados requiere aprobación antes de su uso. Esta reserva quedará pendiente hasta que se apruebe.
+		Uno o más Salas reservados requiere aprobación antes de su uso. Esta reserva quedará pendiente hasta que se apruebe.
 	<?php }?>
 
 	<?php if (!empty($_smarty_tpl->tpl_vars['ApprovedBy']->value)) {?>

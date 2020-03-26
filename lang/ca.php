@@ -115,7 +115,7 @@ class ca extends en_gb
         $strings['NextWeek'] = 'Setmana Vinent';
         $strings['SignOut'] = 'Sortir';
         $strings['LayoutDescription'] = 'Comen&ccedil;a en %s, mostrant %s dies cada cop';
-        $strings['AllResources'] = 'Tots Els Recursos';
+        $strings['AllResources'] = 'Tots Els Salas';
         $strings['TakeOffline'] = 'Deshabilitar';
         $strings['BringOnline'] = 'Habilitar';
         $strings['AddImage'] = 'Afegir Imatge';
@@ -195,14 +195,14 @@ class ca extends en_gb
         $strings['NotSignedIn'] = 'No has iniciat sessi&oacute;';
         $strings['ReservationTitle'] = 'T&iacute;tol de la reserva';
         $strings['ReservationDescription'] = 'Descripci&oacute; de la reserva';
-        $strings['ResourceList'] = 'Recursos a reservar';
+        $strings['ResourceList'] = 'Salas a reservar';
         $strings['Accessories'] = 'Accesoris';
         $strings['Add'] = 'Afegir';
         $strings['ParticipantList'] = 'Participants';
         $strings['InvitationList'] = 'Convidats';
         $strings['AccessoryName'] = 'Nom d\'Accesori';
         $strings['QuantityAvailable'] = 'Quantitat Disponible';
-        $strings['Resources'] = 'Recursos';
+        $strings['Resources'] = 'Salas';
         $strings['Participants'] = 'Participants';
         $strings['User'] = 'Usuari';
         $strings['Resource'] = 'Recurs';
@@ -253,12 +253,12 @@ class ca extends en_gb
         $strings['YourReferenceNumber'] = 'El teu n&uacute;mero de referencia es %s';
         $strings['UpdatingReservation'] = 'Actualizant reserva';
         $strings['ChangeUser'] = 'Canviar Usuari';
-        $strings['MoreResources'] = 'M&eacute;s Recursos';
+        $strings['MoreResources'] = 'M&eacute;s Salas';
         $strings['ReservationLength'] = 'Duraci&oacute; de la Reserva';
         $strings['ParticipantList'] = 'Llista de Participants';
         $strings['AddParticipants'] = 'Afegir Participants';
         $strings['InviteOthers'] = 'Convidar A Altres';
-        $strings['AddResources'] = 'Afegir Recursos';
+        $strings['AddResources'] = 'Afegir Salas';
         $strings['AddAccessories'] = 'Afegir Accesoris';
         $strings['Accessory'] = 'Accesori';
         $strings['QuantityRequested'] = 'Quantitat Requerida';
@@ -268,7 +268,7 @@ class ca extends en_gb
         $strings['DeleteAccessoryWarning'] = 'A l\'esborrar aquest accesori s\'eliminar&agrave; de totes les reserves.';
         $strings['AddAccessory'] = 'Afegir Accesori';
         $strings['AddBlackout'] = 'Afegir Bloqueig';
-        $strings['AllResourcesOn'] = 'Tots els Recursos Habilitats';
+        $strings['AllResourcesOn'] = 'Tots els Salas Habilitats';
         $strings['Reason'] = 'Motiu';
         $strings['BlackoutShowMe'] = 'Veure reserves en conflicte';
         $strings['BlackoutDeleteConflicts'] = 'Esborrar les reserves en conflicte';
@@ -281,7 +281,7 @@ class ca extends en_gb
         $strings['ReservationConflicts'] = 'Hi ha temps de reserva en conflicte';
         $strings['UsersInGroup'] = 'Usuaris en aquest grup';
         $strings['Browse'] = 'Navegar';
-        $strings['DeleteGroupWarning'] = 'A l\'esborrar aquest grup s\'eliminaran tots els permisos dels recursos associats.  Els usuaris en aquest grup poden perder acc&eacute; als recursos.';
+        $strings['DeleteGroupWarning'] = 'A l\'esborrar aquest grup s\'eliminaran tots els permisos dels Salas associats.  Els usuaris en aquest grup poden perder acc&eacute; als Salas.';
         $strings['WhatRolesApplyToThisGroup'] = 'Quins rols s\'apliquen a aquest grup?';
         $strings['WhoCanManageThisGroup'] = 'Qui pot gestionar aquest grup?';
         $strings['AddGroup'] = 'Afegir Grup';
@@ -311,7 +311,7 @@ class ca extends en_gb
         $strings['OptionalLabel'] = 'Etiqueta Opcional';
         $strings['LayoutInstructions'] = 'Introdueix un slot per l&iacute;nia.  S\'han de proporcionar slots per les 24 hores del dia comen&ccedil;ant i acabant a les 12:00 AM.';
         $strings['AddUser'] = 'Afegir Usuari';
-        $strings['UserPermissionInfo'] = 'L\'acc&eacute;s real als recursos pot ser diferent segons els rols de l\'usuari, permisos de grup, o ajustos externs de permisos';
+        $strings['UserPermissionInfo'] = 'L\'acc&eacute;s real als Salas pot ser diferent segons els rols de l\'usuari, permisos de grup, o ajustos externs de permisos';
         $strings['DeleteUserWarning'] = 'A l\'esborrar aquest usuari s\'eliminaran totes les reserves actuals, futures i passades.';
         $strings['AddAnnouncement'] = 'Afegir Anunci';
         $strings['Announcement'] = 'Anunci';
@@ -324,7 +324,7 @@ class ca extends en_gb
         $strings['Past'] = 'Passat';
         $strings['Restricted'] = 'Restringit';
 		$strings['ViewAll'] = 'Veure-ho tot';
-		$strings['MoveResourcesAndReservations'] = 'Moure tamb� Recursos i Reserves';
+		$strings['MoveResourcesAndReservations'] = 'Moure tamb� Salas i Reserves';
 
         // Errors
         $strings['LoginError'] = 'No s\'ha trobat una correspond&egrave;ncia pel teu nom d\'usuari i contrasenya';
@@ -334,7 +334,7 @@ class ca extends en_gb
         $strings['MinDurationError'] = 'Aquesta reserva ha de durar almenys %s.';
         $strings['MaxDurationError'] = 'Aquesta reserva no pot durar m&eacute;s de %s.';
         $strings['ConflictingAccessoryDates'] = 'No hi ha suficients dels seguents accesoris:';
-        $strings['NoResourcePermission'] = 'No tens permisos per accedir a un o m&eacute;s dels recursos requerits';
+        $strings['NoResourcePermission'] = 'No tens permisos per accedir a un o m&eacute;s dels Salas requerits';
         $strings['ConflictingReservationDates'] = 'Hi ha conflictes a les reserves de les seguents dates:';
         $strings['StartDateBeforeEndDateRule'] = 'La data d\'Inici ha de ser anterior que la data final';
         $strings['StartIsInPast'] = 'La data inicial no pot ser passada';
@@ -349,7 +349,7 @@ class ca extends en_gb
         $strings['AwaitingActivation'] = 'Esperant Activaci&oacute;';
         $strings['PendingApproval'] = 'Pendent D\'Aprobaci&oacute;';
         $strings['ManageSchedules'] = 'Planificacions';
-        $strings['ManageResources'] = 'Recursos';
+        $strings['ManageResources'] = 'Salas';
         $strings['ManageAccessories'] = 'Accesoris';
         $strings['ManageUsers'] = 'Usuaris';
         $strings['ManageGroups'] = 'Grups';
@@ -367,7 +367,7 @@ class ca extends en_gb
         $strings['FindAnOpening'] = 'Trobar Un Forat';
         $strings['OpenInvitations'] = 'Invitacions Pendents';
         $strings['MyCalendar'] = 'El meu Calendari';
-        $strings['ResourceCalendar'] = 'Calendari de Recursos';
+        $strings['ResourceCalendar'] = 'Calendari de Salas';
         $strings['Reservation'] = 'Nova Reserva';
         $strings['Install'] = 'Instal&middot;laci&oacute;';
         $strings['ChangePassword'] = 'Canviar Contrasenya';

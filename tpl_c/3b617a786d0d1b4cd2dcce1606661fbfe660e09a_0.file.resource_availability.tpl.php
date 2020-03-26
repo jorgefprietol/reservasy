@@ -11,7 +11,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
     '3b617a786d0d1b4cd2dcce1606661fbfe660e09a' => 
     array (
-      0 => '/home/xebloxvgfx88/public_html/yanbal/tpl/Dashboard/resource_availability.tpl',
+      0 => '/yanbal/tpl/Dashboard/resource_availability.tpl',
       1 => 1580159920,
       2 => 'file',
     ),

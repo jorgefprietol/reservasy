@@ -22,8 +22,8 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 *}
 
-Reservasi Anda akan segera berakhir.<br/>
-Rincian Reservasi:
+Capacitacionesi Anda akan segera berakhir.<br/>
+Rincian Capacitacionesi:
 	<br/>
 	<br/>
 	Mulai: {formatdate date=$StartDate key=reservation_email}<br/>
@@ -32,7 +32,7 @@ Rincian Reservasi:
 	Judul: {$Title}<br/>
 	Keterangan: {$Description|nl2br}<br/>
 <br/>
-<a href="{$ScriptUrl}/{$ReservationUrl}">Lihat reservasi ini</a> |
+<a href="{$ScriptUrl}/{$ReservationUrl}">Lihat Capacitacionesi ini</a> |
 <a href="{$ScriptUrl}/{$ICalUrl}">Tambah ke Kalender</a> |
 <a href="{$ScriptUrl}">Masuk ke Agenda Capacitaciones Yanbal</a>
 

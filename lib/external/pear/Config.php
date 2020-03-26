@@ -12,7 +12,7 @@
 // | obtain it through the world-wide-web, please send a note to          |
 // | license@php.net so we can mail you a copy immediately.               |
 // +----------------------------------------------------------------------+
-// | Author: Bertrand Mansion <bmansion@mamasam.com>                      |
+// | Author: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                      |
 // +----------------------------------------------------------------------+
 //
 // $Id: Config.php 306597 2010-12-24 05:11:09Z aharvey $
@@ -41,7 +41,7 @@ $GLOBALS['CONFIG_TYPES'] =
 * Do not use this class only to read datasources because of the overhead
 * it creates to keep track of the configuration structure.
 *
-* @author   Bertrand Mansion <bmansion@mamasam.com>
+* @author   Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
 * @package  Config
 */
 class Config {

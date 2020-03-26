@@ -30,6 +30,7 @@ along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licens
     </div>
     <div class="dashboardContents">
         {assign var=colspan value="5"}
+        6666666666666666666666666666666666666
         {if $Total > 0}
             <div>
                 <div class="timespan">

@@ -348,7 +348,7 @@ along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licens
 
                         <div id="reservationAttachments">
                             <div class="attachment-item">
-                                <label for="reservationUploadFile">Reservation Upload File</label>
+                                <label for="reservationUploadFile">Archivo Fisica de asistencia</label>
                                 <input type="file" {formname key=RESERVATION_FILE multi=true}
                                        id="reservationUploadFile"/>
                                 <a class="add-attachment" href="#">{translate key=Add} <i class="fa fa-plus-square"></i></a>

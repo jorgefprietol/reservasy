@@ -13,7 +13,7 @@ Usuario: {$UserName}<br/>
 Inicio: {formatdate date=$StartDate key=reservation_email}<br/>
 Fin: {formatdate date=$EndDate key=reservation_email}<br/>
 {if $ResourceNames|count > 1}
-    Recursos:
+    Salas:
     <br/>
     {foreach from=$ResourceNames item=resourceName}
         {$resourceName}

@@ -46,7 +46,7 @@ along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licens
 
 	{if $RequiresApproval}
 		<br/>
-		Um ou mais recursos reservados requerem aprovação antes do uso. Certifique-se que este pedido de reserva é aprovado ou rejeitado.
+		Um ou mais Salas reservados requerem aprovação antes do uso. Certifique-se que este pedido de reserva é aprovado ou rejeitado.
 	{/if}
 
 	<br/>

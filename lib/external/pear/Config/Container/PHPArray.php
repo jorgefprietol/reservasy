@@ -12,7 +12,7 @@
 // | obtain it through the world-wide-web, please send a note to          |
 // | license@php.net so we can mail you a copy immediately.               |
 // +----------------------------------------------------------------------+
-// | Authors: Bertrand Mansion <bmansion@mamasam.com>                     |
+// | Authors: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                     |
 // +----------------------------------------------------------------------+
 //
 // $Id: PHPArray.php 306488 2010-12-20 08:45:09Z cweiske $
@@ -28,7 +28,7 @@
 * 'useAttr' => true
 * Whether we render attributes
 *
-* @author      Bertrand Mansion <bmansion@mamasam.com>
+* @author      Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
 * @package     Config
 */
 class Config_Container_PHPArray {

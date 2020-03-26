@@ -24,7 +24,7 @@ along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licens
 	Inicio: {formatdate date=$StartDate key=reservation_email}<br/>
 	Fin: {formatdate date=$EndDate key=reservation_email}<br/>
 	{if $ResourceNames|count > 1}
-		Recursos:<br/>
+		Salas:<br/>
 		{foreach from=$ResourceNames item=resourceName}
 			{$resourceName}<br/>
 		{/foreach}
@@ -65,7 +65,7 @@ along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licens
 
 	{if $RequiresApproval}
 		<br/>
-		Uno o más recursos reservados requiere aprobación antes de su uso. Por favor asegúrese que esta solicitu de reserva se aprueba o rechaza.
+		Uno o más Salas reservados requiere aprobación antes de su uso. Por favor asegúrese que esta solicitu de reserva se aprueba o rechaza.
 	{/if}
 
 	<br/>

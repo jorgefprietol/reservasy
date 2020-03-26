@@ -16,4 +16,4 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licenses/>.
 *}
-{$FullName} convidou voc� para registrar uma conta no sistema de reservas {$AppTitle}. Por favor, <a href="{$RegisterUrl}">registre sua conta</a>.
+{$FullName} convidou voc� para registrar uma conta no sistema de Capacitaciones {$AppTitle}. Por favor, <a href="{$RegisterUrl}">registre sua conta</a>.

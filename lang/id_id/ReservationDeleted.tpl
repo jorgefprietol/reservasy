@@ -23,7 +23,7 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 *}
 
 
-Rincian Reservasi:
+Rincian Capacitacionesi:
 <br/>
 <br/>
 

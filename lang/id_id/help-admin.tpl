@@ -33,7 +33,7 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p>Saat memasang Agenda Capacitaciones Yanbal, jadwal standar akan dibuat. Dari pilihan menu Jadwal Anda bisa melihat dan mengatur atribut dari jadwal yang ada.</p>
 
-<p>Setiap jadwal harus diatur tampilannya. Kontrol ini mengatur ketersediaan resource pada jadwal. Mengklik tautan Ubah Tampilan akan membawa pada pengaturan tampilan. Di sini Anda bisa membuat dan merubah slot waktu yang tersedia pada reservasi dan memblokirnya dari reservasi. Tidak ada batasan pada slot waktu, tapi Anda harus memberikan waktu untuk semua 24 jam sehari, satu persatu. Juga, format waktu harus dalam 24 jam. Jika Anda inginkan, Anda juga dapat memberikan label tampilan untuk setiap slot atau semuanya.</p>
+<p>Setiap jadwal harus diatur tampilannya. Kontrol ini mengatur ketersediaan resource pada jadwal. Mengklik tautan Ubah Tampilan akan membawa pada pengaturan tampilan. Di sini Anda bisa membuat dan merubah slot waktu yang tersedia pada Capacitacionesi dan memblokirnya dari Capacitacionesi. Tidak ada batasan pada slot waktu, tapi Anda harus memberikan waktu untuk semua 24 jam sehari, satu persatu. Juga, format waktu harus dalam 24 jam. Jika Anda inginkan, Anda juga dapat memberikan label tampilan untuk setiap slot atau semuanya.</p>
 
 <p>Setiap slot tanpa label harus berformat seperti ini: 10:25 - 16:50</p>
 
@@ -47,17 +47,17 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p>Resource dalam Agenda Capacitaciones Yanbal bisa apa saja untuk mengatur yang dapat dipesan, seperti ruangan atau peralatan. Setiap Resource harus ditetapkan ke jadwal agar dapat dipesan. Resource akan mengikuti tampilan dari jadwal yang digunakan.</p>
 
-<p>Mengatur lama minimal reservasi akan membatasi booking yang lebih lama dari jumlah yang sudah diatur. Standarnya tanpa minimal.</p>
+<p>Mengatur lama minimal Capacitacionesi akan membatasi booking yang lebih lama dari jumlah yang sudah diatur. Standarnya tanpa minimal.</p>
 
-<p>Mengatur lama maksimal reservasi akan membatasi booking yang kurang dari jumlah yang sudah diatur. Standarnya tanpa maksimal.</p>
+<p>Mengatur lama maksimal Capacitacionesi akan membatasi booking yang kurang dari jumlah yang sudah diatur. Standarnya tanpa maksimal.</p>
 
 <p>Mengatur resource agar membutuhkan persetujuan akan membuat semua booking dari resource tersebut menjadi tertunda sampai disetujui. Standarnya tidak membutuhkan persutujuan.</p>
 
 <p>Mengatur resource untuk otomatis memberikan izin terhadapnya akan memberikan kepada semua pengguna baru izin untuk mengakses resource ketika pendaftaran. Standarnya otomatos memberikan izin.</p>
 
-<p>Anda membutuhkan lama waktu booking dengan mengatur resource untuk meminta sejumlah hari/jam/menit notifikasi. Sebagai contoh, jika waktu saat ini pukul 10:30 AM pada hari Senin dan resource membutuhkan 1 hari notifikasi, resource tidak dapat di booking sampai pukul 10:30 AM pada hari Minggu. Standarnya reservasi bisa dipesan sampai waktu saat ini.</p>
+<p>Anda membutuhkan lama waktu booking dengan mengatur resource untuk meminta sejumlah hari/jam/menit notifikasi. Sebagai contoh, jika waktu saat ini pukul 10:30 AM pada hari Senin dan resource membutuhkan 1 hari notifikasi, resource tidak dapat di booking sampai pukul 10:30 AM pada hari Minggu. Standarnya Capacitacionesi bisa dipesan sampai waktu saat ini.</p>
 
-<p>Anda bisa membatasi resource dari booking yang terlalu lama di masa yang akan datang dengan membutuhkan maksimal notifikasi dari hari/jam/menit. Sebagai contoh, jika sekarang 10:30 hari Senin dan reservasi tidak bisa lebih dari 1 hari, resource tidak akan bisa di booking lebih dari 10:30 pada hari Selasa. Standarnya tidak ada maksimal.</p>
+<p>Anda bisa membatasi resource dari booking yang terlalu lama di masa yang akan datang dengan membutuhkan maksimal notifikasi dari hari/jam/menit. Sebagai contoh, jika sekarang 10:30 hari Senin dan Capacitacionesi tidak bisa lebih dari 1 hari, resource tidak akan bisa di booking lebih dari 10:30 pada hari Selasa. Standarnya tidak ada maksimal.</p>
 
 <p>Beberapa resource tidak memiliki cukup kapasitas. Sebagai contoh, beberapa ruang rapat hanya untuk 8 orang. Mengatur resource kapasitas akan membatasi jumlah partisipan pada satu waktu, termasuk penyelenggara. Standarnya resource tidak memiliki batasan kapasitas.</p>
 
@@ -65,17 +65,17 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <h3>Gambar Resource</h3>
 
-<p>Anda bisa mengatur gambar resource yang akan ditampilkan saat melihat rincian resource pada halaman reservasi. Membutuhkan php_gd2 yang terpasang dan diaktifkan pada file php.ini. <a href="http://www.php.net/manual/en/book.image.php">Untuk Lebih Jelas</a></p>
+<p>Anda bisa mengatur gambar resource yang akan ditampilkan saat melihat rincian resource pada halaman Capacitacionesi. Membutuhkan php_gd2 yang terpasang dan diaktifkan pada file php.ini. <a href="http://www.php.net/manual/en/book.image.php">Untuk Lebih Jelas</a></p>
 
 <h3>Menyiapkan Aksesoris</h3>
 
-<p>Aksesoris bisa dianggap sebagai obyek yang digunakan selama reservasi. Contoh mungkin proyektor atau kursi di ruang konferensi.</p>
+<p>Aksesoris bisa dianggap sebagai obyek yang digunakan selama Capacitacionesi. Contoh mungkin proyektor atau kursi di ruang konferensi.</p>
 
 <p>Aksesoris dapat dilihat dan dikelola dari menu Aksesoris, di bawah menu Resources. Mengatur jumlah aksesori akan membatasi lebih dari sejumlah aksesori yang dapat dipesan pada suatu waktu.</p>
 
 <h3>Menyiapkan Kuota</h3>
 
-<p>Kuota membatasi reservasi yang dapat dipesan berdasarkan pengaturan batas. Sistem kuota di Agenda Capacitaciones Yanbal sangat fleksibel, memungkinkan Anda membuat batasan berdasarkan lamanya reservasi dan jumlah reservasi. Juga, membatasi kuota "yang menumpuk". Sebagai contoh jika kuota membatasi untuk 5 jam per hari dan kuota yang lain membatasi untuk 4 reservasi per hari, pengguna tidak akan dapat mereservasi selama 4 jam tapi diak bisa reservasi selama 3x2 jam. Hal ini memungkinkan kombinasi kuota yang kuat yang bisa dibuat.</p>
+<p>Kuota membatasi Capacitacionesi yang dapat dipesan berdasarkan pengaturan batas. Sistem kuota di Agenda Capacitaciones Yanbal sangat fleksibel, memungkinkan Anda membuat batasan berdasarkan lamanya Capacitacionesi dan jumlah Capacitacionesi. Juga, membatasi kuota "yang menumpuk". Sebagai contoh jika kuota membatasi untuk 5 jam per hari dan kuota yang lain membatasi untuk 4 Capacitacionesi per hari, pengguna tidak akan dapat meCapacitacionesi selama 4 jam tapi diak bisa Capacitacionesi selama 3x2 jam. Hal ini memungkinkan kombinasi kuota yang kuat yang bisa dibuat.</p>
 
 <p>Administrator Aplikasi dikecualikan dari keterbatasan penggunaan.</p>
 
@@ -95,19 +95,19 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p>Administrator Aplikasi: Pengguna yang termasuk dalam kelompok ini memiliki hak administratif secara penuh. Peran ini memiliki hampir nol pembatasan pada sumber daya dapat dipesan. Bisa mengelola semua aspek aplikasi.</p>
 
-<p>Administrator Grup: Pengguna yang termasuk kelompok ini mampu mengelola kelompok dan reservasi atas nama mereka dan mengelola pengguna dalam kelompok itu.</p>
+<p>Administrator Grup: Pengguna yang termasuk kelompok ini mampu mengelola kelompok dan Capacitacionesi atas nama mereka dan mengelola pengguna dalam kelompok itu.</p>
 
-<p>Administrator Resource: Pengguna yang termasuk dalam kelompok ini mampu untuk mengatur resource dan menyetujui reservasi pada resource mereka.</p>
+<p>Administrator Resource: Pengguna yang termasuk dalam kelompok ini mampu untuk mengatur resource dan menyetujui Capacitacionesi pada resource mereka.</p>
 
-<p>Administrator Jadwal: Pengguna yang termasuk dalam kelompok ini mampu untuk mengatur jadwal mereka dan resource yang masuk dalam jadwal mereka dan menyetujui reservasi pada jadwal mereka.</p>
+<p>Administrator Jadwal: Pengguna yang termasuk dalam kelompok ini mampu untuk mengatur jadwal mereka dan resource yang masuk dalam jadwal mereka dan menyetujui Capacitacionesi pada jadwal mereka.</p>
 
-<h3>Melihat dan Mengatur Reservasi</h3>
+<h3>Melihat dan Mengatur Capacitacionesi</h3>
 
-<p>Anda bisa melihat dan mengatur reservasi dari menu Reservasi. Standarnya Anda akan melihat 7 hari terakhir dan 7 hari berikutnya dari reservasi. Bisa juga disaring lebih atau kurang rincian tergantung pada apa yang Anda cari. Utilitas ini memmungkinkan Anda menemukan secara cepat tindakan pada reservasi. Anda juga dapat mengekspor daftar dari saringan reservasi ke fromat CSV untuk kebutuhan laporan.</p>
+<p>Anda bisa melihat dan mengatur Capacitacionesi dari menu Capacitacionesi. Standarnya Anda akan melihat 7 hari terakhir dan 7 hari berikutnya dari Capacitacionesi. Bisa juga disaring lebih atau kurang rincian tergantung pada apa yang Anda cari. Utilitas ini memmungkinkan Anda menemukan secara cepat tindakan pada Capacitacionesi. Anda juga dapat mengekspor daftar dari saringan Capacitacionesi ke fromat CSV untuk kebutuhan laporan.</p>
 
-<h3>Persetujuan Reservasi</h3>
+<h3>Persetujuan Capacitacionesi</h3>
 
-<p>Atur $conf['settings']['reservation']['updates.require.approval'] ke 'true' akan membuat semua permintaan reservasi ke keadaan ditunda. Reservasi menjadi aktif setelah administrator menyetujinya. Dari utiliti Reservasi admin seorang admnistrator akan bisa melihat dan menyetujui penundaan reservasi. Reservasi yang ditunda akan disorot.</p>
+<p>Atur $conf['settings']['reservation']['updates.require.approval'] ke 'true' akan membuat semua permintaan Capacitacionesi ke keadaan ditunda. Capacitacionesi menjadi aktif setelah administrator menyetujinya. Dari utiliti Capacitacionesi admin seorang admnistrator akan bisa melihat dan menyetujui penundaan Capacitacionesi. Capacitacionesi yang ditunda akan disorot.</p>
 
 <h3>Melihat dan Mengatur Pengguna</h3>
 
@@ -117,9 +117,9 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p>Laporan dapat diakses ke semua administrator aplikasi, grup, resource dan jadwal. Saat pengguna yang memiliki akses fitur laporan masuk (log in), mereka akan melihat menu navigasi Laporan. Agenda Capacitaciones Yanbal dilengkapi dengan satu set dari Laporan Umum yang dapat dilihat sebagai daftar dari hasil, bagan, ekspor ke CSV dan cetak. Selain itu, laporan ad-hoc dapat dibuat dari menu Buat Laporan Baru. Hal ini juga memungkinkan dilihat dalam bentuk daftar, bagan, ekspor dan cetak. Selain itu, laporan khusus bisa diimpan dan diakses kembali pada waktu yang mendatang dari menu Laporan Tersimpan Saya. Menyimpan laporan juga bisa untuk dikirim melalui e-mail.</p>
 
-<h3>Pengingat Reservasi</h3>
+<h3>Pengingat Capacitacionesi</h3>
 
-<p>Pengguna bisa meminta email pengingat dikirimkan berdasarkan awal atau akhir dari reservasi. Users can request that reminder emails are send prior to the beginning or end of a reservation. Agar fitur ini berfungsi, $conf['settings']['enable.email'] dan $conf['settings']['reservation']['enable.reminders'] keduanya harus diatur 'true'. Juga, tugas jadwal harus dikonfigurasi pada server Anda untuk menjalankan /Agenda Capacitaciones Yanbal/Jobs/sendreminders.php</p>
+<p>Pengguna bisa meminta email pengingat dikirimkan berdasarkan awal atau akhir dari Capacitacionesi. Users can request that reminder emails are send prior to the beginning or end of a reservation. Agar fitur ini berfungsi, $conf['settings']['enable.email'] dan $conf['settings']['reservation']['enable.reminders'] keduanya harus diatur 'true'. Juga, tugas jadwal harus dikonfigurasi pada server Anda untuk menjalankan /Agenda Capacitaciones Yanbal/Jobs/sendreminders.php</p>
 
 <p>Pada Linux, 'cron job' bisa digunakan. Perintah untuk menjalankan adalah <span class="note">php</span> diikuti dengan alamat lengkap untuk file Agenda Capacitaciones Yanbal/Jobs/sendreminders.php. Alamat lengkap untuk file sendreminders.php pada server ini <span class="note">{$RemindersPath}</span></p>
 
@@ -151,7 +151,7 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p class="setting"><span>$conf['settings']['schedule']['show.inaccessible.resources']</span>Menampilkan atau tidak resource yang tidak dapat diakses oleh pengguna tapi ditampilkan dalam jadwal.</p>
 
-<p class="setting"><span>$conf['settings']['schedule']['reservation.label']</span>Format dari tampilan slot reservasi pada halaman Booking. Token yang tersedia adalah {literal}{name}, {title}, {description}, {email}, {phone}, {organization}, {position}{/literal}. Biarkan kosong untuk tidak ada label. Bermacam kombinasi dari token bisa digunakan.</p>
+<p class="setting"><span>$conf['settings']['schedule']['reservation.label']</span>Format dari tampilan slot Capacitacionesi pada halaman Booking. Token yang tersedia adalah {literal}{name}, {title}, {description}, {email}, {phone}, {organization}, {position}{/literal}. Biarkan kosong untuk tidak ada label. Bermacam kombinasi dari token bisa digunakan.</p>
 
 <p class="setting"><span>$conf['settings']['schedule']['hide.blocked.periods']</span>Jika periode blokir harus disembunyikan pada halaman booking. Biasanya adalah 'false'.</p>
 
@@ -181,45 +181,45 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p class="setting"><span>$conf['settings']['logout.url']</span>Ke mana pengguna akan dialihkan setelah keluar. Biasanya halaman login.</p>
 
-<p class="setting"><span>$conf['settings']['ics']['require.login']</span>Jika pengguna harus masuk (log in) terlebih dahulu untuk menambah reservasi ke Outlook.</p>
+<p class="setting"><span>$conf['settings']['ics']['require.login']</span>Jika pengguna harus masuk (log in) terlebih dahulu untuk menambah Capacitacionesi ke Outlook.</p>
 
 <p class="setting"><span>$conf['settings']['ics']['subscription.key']</span>Jika Anda mengizinkan berlangganan webcal, atur agar sulit untuk ditebak. Jika tidak diatur maka berlangganan webcal akan dinonaktfkan.</p>
 
 <p class="setting"><span>$conf['settings']['privacy']['view.schedules']</span>Jika bukan pengguna otentik bisa melihat jadwal booking. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['privacy']['view.reservations']</span>Jika bukan pengguna otentik bisa melihat rincian reservasi. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['privacy']['view.reservations']</span>Jika bukan pengguna otentik bisa melihat rincian Capacitacionesi. Biasanya 'false'.</p>
 
 <p class="setting"><span>$conf['settings']['privacy']['hide.user.details']</span>Jika bukan pengguna otentik bisa melihat informasi personal tentang pengguna lain. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation']['start.time.constraint']</span>Ketika reservasi bisa dibuat atau diubah. Pilihannya adalah future (di masa depan), current (saat ini), none (tidak sama sekali). Future (masa depan) artinya reservasi tidak bisa dibuat dan dimodifikasi jika waktu mulai dari slot yang dipilih adalah waktu yang sudah lewat. Current (saat ini) artinya reservasi bisa dibuat atau dimodifikasi jika akhir waktu dari slot yang dipilih bukan waktu yang sudah lewat. None (tidak sama sekali) artinya tidak ada batasan pada kapan reservasi bisa dibuat atau dimodifikasi. Biasanya 'future'.</p>
+<p class="setting"><span>$conf['settings']['reservation']['start.time.constraint']</span>Ketika Capacitacionesi bisa dibuat atau diubah. Pilihannya adalah future (di masa depan), current (saat ini), none (tidak sama sekali). Future (masa depan) artinya Capacitacionesi tidak bisa dibuat dan dimodifikasi jika waktu mulai dari slot yang dipilih adalah waktu yang sudah lewat. Current (saat ini) artinya Capacitacionesi bisa dibuat atau dimodifikasi jika akhir waktu dari slot yang dipilih bukan waktu yang sudah lewat. None (tidak sama sekali) artinya tidak ada batasan pada kapan Capacitacionesi bisa dibuat atau dimodifikasi. Biasanya 'future'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation']['updates.require.approval']</span>menyetujui atau tidak pembaruan reservasi yang sebelumnya telah disetujui. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation']['updates.require.approval']</span>menyetujui atau tidak pembaruan Capacitacionesi yang sebelumnya telah disetujui. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation']['prevent.participation']</span>Membatasi atau tidak pengguna dari penambahan dan mengundang pengguna yang lain dalam reservasi. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation']['prevent.participation']</span>Membatasi atau tidak pengguna dari penambahan dan mengundang pengguna yang lain dalam Capacitacionesi. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation']['prevent.recurrence']</span>Mengharuskan atau tidak pengguna dibatasi reservasi yang berulang. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation']['prevent.recurrence']</span>Mengharuskan atau tidak pengguna dibatasi Capacitacionesi yang berulang. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['resource.admin.add']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika reservasi dibuat. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['resource.admin.add']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika Capacitacionesi dibuat. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['resource.admin.update']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika reservasi diperbarui. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['resource.admin.update']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika Capacitacionesi diperbarui. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['resource.admin.delete']</span>Mengirim atau tidak mengirim email ke semua administrator resource ketika reservasi dihapus. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['resource.admin.delete']</span>Mengirim atau tidak mengirim email ke semua administrator resource ketika Capacitacionesi dihapus. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['application.admin.add']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika reservasi dibuat. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['application.admin.add']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika Capacitacionesi dibuat. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['application.admin.update']</span>Mengirim atau tidak mengirim email ke semua administrator aplikasi ketika reservasi diperbarui. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['application.admin.update']</span>Mengirim atau tidak mengirim email ke semua administrator aplikasi ketika Capacitacionesi diperbarui. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['application.admin.delete']</span>Mengirim atau tidak mengirim email ke semua administrator aplikasi ketika reservasi dihapus. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['application.admin.delete']</span>Mengirim atau tidak mengirim email ke semua administrator aplikasi ketika Capacitacionesi dihapus. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['group.admin.add']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika reservasi dibuat. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['group.admin.add']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika Capacitacionesi dibuat. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['group.admin.update']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika reservasi diperbarui. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['group.admin.update']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika Capacitacionesi diperbarui. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['reservation.notify']['group.admin.delete']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika reservasi dihapus. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['reservation.notify']['group.admin.delete']</span>Mengirim atau tidak mengirim email ke semua administrator grup ketika Capacitacionesi dihapus. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['uploads']['enable.reservation.attachments']</span>Jika pengguna diizinkan untuk melampirkan file saat reservasi. Biasanya 'false'.</p>
+<p class="setting"><span>$conf['settings']['uploads']['enable.reservation.attachments']</span>Jika pengguna diizinkan untuk melampirkan file saat Capacitacionesi. Biasanya 'false'.</p>
 
-<p class="setting"><span>$conf['settings']['uploads']['reservation.attachment.path']</span>Alamat lengkap atau relatif dari sistem file (tergantung atau relatif dari direktori utama Agenda Capacitaciones Yanbal) untuk menyimpan lampiran reservasi. Direktori ini harus dapat ditulis (writeable) oleh PHP (755 disarankan). Standarnya 'uploads/reservation'.</p>
+<p class="setting"><span>$conf['settings']['uploads']['reservation.attachment.path']</span>Alamat lengkap atau relatif dari sistem file (tergantung atau relatif dari direktori utama Agenda Capacitaciones Yanbal) untuk menyimpan lampiran Capacitacionesi. Direktori ini harus dapat ditulis (writeable) oleh PHP (755 disarankan). Standarnya 'uploads/reservation'.</p>
 
 <p class="setting"><span>$conf['settings']['uploads']['reservation.attachment.extensions']</span>Pisahkan dengan koma daftar dari file ekstensi. Biarkan kosong untuk memungkinkan semua tipe file (tidak direkomendasi).</p>
 
@@ -257,7 +257,7 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 
 <p class="setting"><span>$conf['settings']['plugins']['PreReservation']</span>Nama dari plugin pra-resevasi (prereservation) yang digunakan. Untuk plugin yang lain, lihat bagian Plugins di bawah.</p>
 
-<p class="setting"><span>$conf['settings']['plugins']['PostReservation']</span>Nama dari plugin pasca-reservasi (postreservation) yang digunakan. Untuk plugin yang lain, lihat bagian Plugins di bawah.</p>
+<p class="setting"><span>$conf['settings']['plugins']['PostReservation']</span>Nama dari plugin pasca-Capacitacionesi (postreservation) yang digunakan. Untuk plugin yang lain, lihat bagian Plugins di bawah.</p>
 
 <p class="setting"><span>$conf['settings']['install.password']</span>Jika Anda menjalankan pemasangan (instalation) atau melakukan upgrade, Anda harus mengisi di sini. Atur dengan isian acak.</p>
 
@@ -279,8 +279,8 @@ bersamaan dengan Agenda Capacitaciones Yanbal. Jika tidak, lihat
 	<li>Authentication (Otentikasi) - Siapa saja yang bisa masuk (log in)</li>
 	<li>Authorization (Otorisasi) - Apa saja yang pengguna bisa lakukan ketika masuk (log in)</li>
 	<li>Permission (Izin) - Resource apa saja yang pengguna bisa akses</li>
-	<li>Pre Reservation (Pra Reservasi) - Apa yang terjadi sebeum reservasi dibooking</li>
-	<li>Post Reservation (Pasca Reservasi) - Apa yang terjadi setelah reservasi dibooking</li>
+	<li>Pre Reservation (Pra Capacitacionesi) - Apa yang terjadi sebeum Capacitacionesi dibooking</li>
+	<li>Post Reservation (Pasca Capacitacionesi) - Apa yang terjadi setelah Capacitacionesi dibooking</li>
 </ul>
 
 <p>

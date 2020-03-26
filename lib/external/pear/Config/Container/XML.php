@@ -12,7 +12,7 @@
 // | obtain it through the world-wide-web, please send a note to          |
 // | license@php.net so we can mail you a copy immediately.               |
 // +----------------------------------------------------------------------+
-// | Author: Bertrand Mansion <bmansion@mamasam.com>                      |
+// | Author: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                      |
 // +----------------------------------------------------------------------+
 //
 // $Id: XML.php 203592 2005-12-24 02:24:30Z aashley $
@@ -23,7 +23,7 @@ require_once('XML/Util.php');
 /**
 * Config parser for XML Files
 *
-* @author      Bertrand Mansion <bmansion@mamasam.com>
+* @author      Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
 * @package     Config
 */
 class Config_Container_XML extends XML_Parser

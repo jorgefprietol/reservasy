@@ -737,7 +737,7 @@ class tr_tr extends en_gb
 		$strings['ManageResourceGroups'] = 'Kaynak Grupları';
 		$strings['ManageResourceTypes'] = 'Kaynak Tipleri';
 		$strings['ManageResourceStatus'] = 'Kaynak Durumları';
-		$strings['ReservationColors'] = 'Reservasyon Renkleri';
+		$strings['ReservationColors'] = 'Capacitacionesyon Renkleri';
 		// End Page Titles
 
 		// Day representations
@@ -768,7 +768,7 @@ class tr_tr extends en_gb
 		$strings['ReservationDeleteAdminSubject'] = 'Bildirim: Rezervasyon Kaldırıldı';
 		$strings['ReservationApprovalAdminSubject'] = 'Bildirim: Reservation Requires Your Approval';
 		$strings['ParticipantAddedSubject'] = 'Rezervasyon Katılımcı Bildirimi';
-		$strings['ParticipantDeletedSubject'] = 'Reservasyon İptal Edildi';
+		$strings['ParticipantDeletedSubject'] = 'Capacitacionesyon İptal Edildi';
 		$strings['InviteeAddedSubject'] = 'Reservation Invitation';
 		$strings['ResetPasswordRequest'] = 'Şifre unuttum';
 		$strings['ActivateYourAccount'] = 'Lütfen Hesabınızı Onaylayınız';
@@ -781,12 +781,12 @@ class tr_tr extends en_gb
 		$strings['InviteUserSubject'] = '%s sizi  %s için katılmaya davet etti';
 
 		$strings['ReservationApprovedSubjectWithResource'] = 'Rezervasyon Onaylandı %s';
-		$strings['ReservationCreatedSubjectWithResource'] = 'Reservasyon Oluşturuldu %s';
-		$strings['ReservationUpdatedSubjectWithResource'] = 'Reservasyon Güncellendi %s';
-		$strings['ReservationDeletedSubjectWithResource'] = 'Reservasyon İptal Edildi %s';
+		$strings['ReservationCreatedSubjectWithResource'] = 'Capacitacionesyon Oluşturuldu %s';
+		$strings['ReservationUpdatedSubjectWithResource'] = 'Capacitacionesyon Güncellendi %s';
+		$strings['ReservationDeletedSubjectWithResource'] = 'Capacitacionesyon İptal Edildi %s';
 		$strings['ReservationCreatedAdminSubjectWithResource'] = 'Bildirim: Rezervasyon Onaylandı %s';
-		$strings['ReservationUpdatedAdminSubjectWithResource'] = 'Bildirim: Reservasyon Oluşturuldu %s';
-		$strings['ReservationDeleteAdminSubjectWithResource'] = 'Bildirim: Reservasyon Güncellendi %s';
+		$strings['ReservationUpdatedAdminSubjectWithResource'] = 'Bildirim: Capacitacionesyon Oluşturuldu %s';
+		$strings['ReservationDeleteAdminSubjectWithResource'] = 'Bildirim: Capacitacionesyon Güncellendi %s';
 		$strings['ReservationApprovalAdminSubjectWithResource'] = 'Bildirim: %s Rezervasyonu Onayınızı Bekliyor';
 		$strings['ParticipantAddedSubjectWithResource'] = '%s Sizi bir rezervasyona ekledi %s';
 		$strings['ParticipantDeletedSubjectWithResource'] = '%s sizi rezervasyondan kaldırdı %s';

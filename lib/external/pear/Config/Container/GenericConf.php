@@ -12,7 +12,7 @@
 // | obtain it through the world-wide-web, please send a note to          |
 // | license@php.net so we can mail you a copy immediately.               |
 // +----------------------------------------------------------------------+
-// | Author: Bertrand Mansion <bmansion@mamasam.com>                      |
+// | Author: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                      |
 // +----------------------------------------------------------------------+
 //
 // $Id: GenericConf.php 306537 2010-12-21 08:09:34Z cweiske $
@@ -21,7 +21,7 @@
 * Config parser for  generic .conf files like
 * htdig.conf...
 *
-* @author      Bertrand Mansion <bmansion@mamasam.com>
+* @author      Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
 * @package     Config
 */
 class Config_Container_GenericConf {

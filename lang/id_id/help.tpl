@@ -32,65 +32,65 @@ Agenda Capacitaciones Yanbal</h1>
 
 <h3>Cara Cepat</h3>
 
-<p>Pada halaman Booking, temukan resources, tanggal dan waktu yang Anda ingin pesan. Mengklik pada slot waktu akan memungkinkan Anda mengubah rincian pemesanan. Mengklik tombol Create akan memeriksa ketersediaan, memesan reservasi dan mengirim email apapun. Anda akan diberikan nomor referensi digunakan untuk tindak lanjut reservasi.</p>
+<p>Pada halaman Booking, temukan resources, tanggal dan waktu yang Anda ingin pesan. Mengklik pada slot waktu akan memungkinkan Anda mengubah rincian pemesanan. Mengklik tombol Create akan memeriksa ketersediaan, memesan Capacitacionesi dan mengirim email apapun. Anda akan diberikan nomor referensi digunakan untuk tindak lanjut Capacitacionesi.</p>
 
-<p>Semua perubahan yang terjadi pada reservasi tidak akan berpengaruh sampai Anda menyimpannya.</p>
+<p>Semua perubahan yang terjadi pada Capacitacionesi tidak akan berpengaruh sampai Anda menyimpannya.</p>
 
-<p>Hanya Administrator Aplikasi dapat membuat reservasi di masa lalu.</p>
+<p>Hanya Administrator Aplikasi dapat membuat Capacitacionesi di masa lalu.</p>
 
 <h3>Resources Ganda</h3>
 
-<p>Anda dapat memesan semua resource yang Anda miliki izin sebagai bagian dari pemesanan tunggal. Untuk menambahkan lebih banyak resource dalam reservasi Anda, klik tautan Resources Tambahan, ditampilkan di sebelah nama resource utama yang Anda reservasi. Anda kemudian akan dapat menambahkan lebih banyak resource dengan memilihnya dan mengklik tombol Selesai.</p>
+<p>Anda dapat memesan semua resource yang Anda miliki izin sebagai bagian dari pemesanan tunggal. Untuk menambahkan lebih banyak resource dalam Capacitacionesi Anda, klik tautan Resources Tambahan, ditampilkan di sebelah nama resource utama yang Anda Capacitacionesi. Anda kemudian akan dapat menambahkan lebih banyak resource dengan memilihnya dan mengklik tombol Selesai.</p>
 
-<p>Untuk menghapus resource tambahan dari reservasi Anda, klik tautan Resource Tambahan, hapus pilihan resources yang ingin Anda hapus, dan klik tombol Selesai.</p>
+<p>Untuk menghapus resource tambahan dari Capacitacionesi Anda, klik tautan Resource Tambahan, hapus pilihan resources yang ingin Anda hapus, dan klik tombol Selesai.</p>
 
-<p>Resources tambahan akan memiliki aturan yang sama seperti resources utama. Sebagai contoh, jika Anda mencoba untuk membuat 2 jam reservasi dengan Resource 1, yang memiliki panjang maksimal 3 jam dan dengan Resource 2, yang memiliki panjang maksimal 1 jam, reservasi Anda akan ditolak.</p>
+<p>Resources tambahan akan memiliki aturan yang sama seperti resources utama. Sebagai contoh, jika Anda mencoba untuk membuat 2 jam Capacitacionesi dengan Resource 1, yang memiliki panjang maksimal 3 jam dan dengan Resource 2, yang memiliki panjang maksimal 1 jam, Capacitacionesi Anda akan ditolak.</p>
 
 <h3>Pengulangan Tanggal</h3>
 
-<p>Reservasi dapat dikonfigurasi untuk berulang dengan berbagai cara yang berbeda. Untuk semua pilihan ulangi Sampai tanggal tersebut inklusif.</p>
+<p>Capacitacionesi dapat dikonfigurasi untuk berulang dengan berbagai cara yang berbeda. Untuk semua pilihan ulangi Sampai tanggal tersebut inklusif.</p>
 
-<p>Pilihan Pengulangan mengizinkan kemungkinan pengulangan yang fleksibel. Sebagai contoh: Ulangi Harian setiap 2 hari akan membuat reservasi setiap hari selama waktu yang ditentukan Anda. Ulangi Mingguan, setiap 1 minggu pada hari Senin, Rabu, Jumat akan membuat reservasi pada masing-masing hari setiap minggu pada waktu tertentu. Jika Anda membuat reservasi di 15-01-2011, mengulangi Bulanan, setiap 3 bulan pada hari yang sama setiap bulan akan menciptakan reservasi setiap bulan ketiga pada tanggal 15. Sejak 15-01-2011 adalah hari Sabtu ketiga bulan Januari, contoh yang yang sama setiap minggu yang dipilih akan mengulangi setiap bulan ketiga pada Sabtu ketiga bulan itu.</p>
+<p>Pilihan Pengulangan mengizinkan kemungkinan pengulangan yang fleksibel. Sebagai contoh: Ulangi Harian setiap 2 hari akan membuat Capacitacionesi setiap hari selama waktu yang ditentukan Anda. Ulangi Mingguan, setiap 1 minggu pada hari Senin, Rabu, Jumat akan membuat Capacitacionesi pada masing-masing hari setiap minggu pada waktu tertentu. Jika Anda membuat Capacitacionesi di 15-01-2011, mengulangi Bulanan, setiap 3 bulan pada hari yang sama setiap bulan akan menciptakan Capacitacionesi setiap bulan ketiga pada tanggal 15. Sejak 15-01-2011 adalah hari Sabtu ketiga bulan Januari, contoh yang yang sama setiap minggu yang dipilih akan mengulangi setiap bulan ketiga pada Sabtu ketiga bulan itu.</p>
 
 <h3>Partisipan Tambahan</h3>
 
-<p>Anda dapat Tambah Partisipan atau Mengundang Orang lain ketika memesan reservasi. Menambahkan seseorang akan menyertakan mereka dalam reservasi dan tidak akan mengirim undangan. Pengguna Yang ditambahkan akan menerima email. Mengundang pengguna akan mengirim email undangan dan memberikan pengguna pilihan untuk Terima atau Tolak undangan. Menerima sebuah undangan menambahkan pengguna ke daftar partisipan. Menolak sebuah undangan menghapus pengguna dari daftar undangan.</p>
+<p>Anda dapat Tambah Partisipan atau Mengundang Orang lain ketika memesan Capacitacionesi. Menambahkan seseorang akan menyertakan mereka dalam Capacitacionesi dan tidak akan mengirim undangan. Pengguna Yang ditambahkan akan menerima email. Mengundang pengguna akan mengirim email undangan dan memberikan pengguna pilihan untuk Terima atau Tolak undangan. Menerima sebuah undangan menambahkan pengguna ke daftar partisipan. Menolak sebuah undangan menghapus pengguna dari daftar undangan.</p>
 
 <p>Jumlah partisipan dibatasi oleh kapasitas partisipan resource.</p>
 
 <h3>Aksesoris</h3>
 
-<p>Aksesori dapat dianggap sebagai obyek yang digunakan selama reservasi. Contoh mungkin proyektor atau kursi. Untuk menambahkan aksesori dalam pesanan Anda, klik link Tambah di sebelah kanan Aksesori judul. Dari sana Anda dapat memilih kuantitas untuk setiap aksesori yang tersedia. Jumlah yang tersedia selama waktu reservasi Anda akan bergantung pada berapa banyak aksesori yang sudah dipakai.</p>
+<p>Aksesori dapat dianggap sebagai obyek yang digunakan selama Capacitacionesi. Contoh mungkin proyektor atau kursi. Untuk menambahkan aksesori dalam pesanan Anda, klik link Tambah di sebelah kanan Aksesori judul. Dari sana Anda dapat memilih kuantitas untuk setiap aksesori yang tersedia. Jumlah yang tersedia selama waktu Capacitacionesi Anda akan bergantung pada berapa banyak aksesori yang sudah dipakai.</p>
 
 <h3>Pemesanan Atas Nama Orang Lain</h3>
 
-<p>Administrator Aplikasi dan Administrator Grup dapat memesan reservasi atas nama orang lain dengan mengklik tautan Ubah pada sebelah kiri nama pengguna.</p>
+<p>Administrator Aplikasi dan Administrator Grup dapat memesan Capacitacionesi atas nama orang lain dengan mengklik tautan Ubah pada sebelah kiri nama pengguna.</p>
 
-<p>Administrator Aplikasi dan Administrator Grup juga dapat memodifikasi dan menghapus reservasi yang dimiliki oleh pengguna lain.</p>
+<p>Administrator Aplikasi dan Administrator Grup juga dapat memodifikasi dan menghapus Capacitacionesi yang dimiliki oleh pengguna lain.</p>
 
-<h2>Perbarui Reservasi</h2>
+<h2>Perbarui Capacitacionesi</h2>
 
-<p>Anda dapat memperbarui reservasi yang telah dibuat atau atas nama Anda.</p>
+<p>Anda dapat memperbarui Capacitacionesi yang telah dibuat atau atas nama Anda.</p>
 
-<h3>Memperbarui Satu Reservasi (Dari Rangkaian Pengulangan)</h3>
+<h3>Memperbarui Satu Capacitacionesi (Dari Rangkaian Pengulangan)</h3>
 
-<p>Jika reservasi diatur untuk berulang, maka rangkaiannya akan dibuat. Setelah Anda merubah dan memperbarui reservasi, Anda akan ditanya reservasi mana yang ingin Anda lakukan perubahan. Anda dapat menerapkan perbuahan pada reservasi yang sedang Anda buka/lihat (Hanya Reservasi Ini) dan reservasi yang lain tidak akan berbuah. Anda dapat merubah semua reservasi yang belum terjadi. Anda juga dapat menerapkannya pada Reservasi Yang Akan Datang, yang akan memperbarui semua reservasi termasuk reservasi yang sedang Anda buka/lihat.</p>
+<p>Jika Capacitacionesi diatur untuk berulang, maka rangkaiannya akan dibuat. Setelah Anda merubah dan memperbarui Capacitacionesi, Anda akan ditanya Capacitacionesi mana yang ingin Anda lakukan perubahan. Anda dapat menerapkan perbuahan pada Capacitacionesi yang sedang Anda buka/lihat (Hanya Capacitacionesi Ini) dan Capacitacionesi yang lain tidak akan berbuah. Anda dapat merubah semua Capacitacionesi yang belum terjadi. Anda juga dapat menerapkannya pada Capacitacionesi Yang Akan Datang, yang akan memperbarui semua Capacitacionesi termasuk Capacitacionesi yang sedang Anda buka/lihat.</p>
 
-<p>Hanya Administrator Aplikasi yang dapat merubah reservasi yang sudah lewat.</p>
+<p>Hanya Administrator Aplikasi yang dapat merubah Capacitacionesi yang sudah lewat.</p>
 
-<h2>Menghapus Reservasi</h2>
+<h2>Menghapus Capacitacionesi</h2>
 
-<p>Menghapus reservasi akan menghapusnya dari jadwal. Tidak akan Agenda Capacitaciones Yanbalalam Agenda Capacitaciones Yanbal.</p>
+<p>Menghapus Capacitacionesi akan menghapusnya dari jadwal. Tidak akan Agenda Capacitaciones Yanbalalam Agenda Capacitaciones Yanbal.</p>
 
-<h3>Memhapus Satu Reservasi (Dari Rangkaian Pengulangan)</h3>
+<h3>Memhapus Satu Capacitacionesi (Dari Rangkaian Pengulangan)</h3>
 
-<p>Mirip dengan memperbarui reservasi, dengan menghapus Anda bisa memilih rangkaian reservasi mana yang ingin dihapus.</p>
+<p>Mirip dengan memperbarui Capacitacionesi, dengan menghapus Anda bisa memilih rangkaian Capacitacionesi mana yang ingin dihapus.</p>
 
-<p>Hanya Administrator Aplikasi yang dapat merubah reservasi yang sudah lewat.</p>
+<p>Hanya Administrator Aplikasi yang dapat merubah Capacitacionesi yang sudah lewat.</p>
 
-<h2>Menambah Reservasi ke Aplikasi Kalender (Outlook&reg;, iCal, Mozilla Lightning, Evolution)</h2>
+<h2>Menambah Capacitacionesi ke Aplikasi Kalender (Outlook&reg;, iCal, Mozilla Lightning, Evolution)</h2>
 
-<p>Saat membuka/melihat atau mengubah reservasi Anda akan melihat tombol Tambah ke Outlook. Jika Outlook terpasang pada komputer Anda maka Anda akan ditanya untuk menambahkan jadwal. Jika tidak terpasang Anda akan mengunduh .ics file. Ini adalah standar aplikasi kalender. Anda bisa menggunakan file ini untuk menambah reservasi ke dalam aplikasi yang mendukung format iCalendar.</p>
+<p>Saat membuka/melihat atau mengubah Capacitacionesi Anda akan melihat tombol Tambah ke Outlook. Jika Outlook terpasang pada komputer Anda maka Anda akan ditanya untuk menambahkan jadwal. Jika tidak terpasang Anda akan mengunduh .ics file. Ini adalah standar aplikasi kalender. Anda bisa menggunakan file ini untuk menambah Capacitacionesi ke dalam aplikasi yang mendukung format iCalendar.</p>
 
 <h2>Berlangganan Kalender</h2>
 
@@ -108,7 +108,7 @@ Agenda Capacitaciones Yanbal</h1>
 
 <h2>Kuota</h2>
 
-<p>Administrator memiliki kemampuan untuk mengkonfigurasi peraturan kuota berdasarkan bervariasi kriteria. Jika reservasi Anda melebihi kuota, Anda akan mendapat pesan dan reservasi akan ditolak.</p>
+<p>Administrator memiliki kemampuan untuk mengkonfigurasi peraturan kuota berdasarkan bervariasi kriteria. Jika Capacitacionesi Anda melebihi kuota, Anda akan mendapat pesan dan Capacitacionesi akan ditolak.</p>
 
 </div>
 {include file="javascript-includes.tpl"}

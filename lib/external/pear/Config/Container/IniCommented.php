@@ -12,7 +12,7 @@
 // | obtain it through the world-wide-web, please send a note to          |
 // | license@php.net so we can mail you a copy immediately.               |
 // +----------------------------------------------------------------------+
-// | Author: Bertrand Mansion <bmansion@mamasam.com>                      |
+// | Author: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                      |
 // +----------------------------------------------------------------------+
 //
 // $Id: IniCommented.php 306554 2010-12-21 20:04:20Z cweiske $
@@ -20,7 +20,7 @@
 /**
 * Config parser for PHP .ini files with comments
 *
-* @author      Bertrand Mansion <bmansion@mamasam.com>
+* @author      Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
 * @package     Config
 */
 class Config_Container_IniCommented {

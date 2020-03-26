@@ -1,6 +1,6 @@
 <?php
 // +-----------------------------------------------------------------------+
-// | Copyright (c) 2005, Bertrand Mansion                                  |
+// | Copyright (c) 2005, Jorge Fidel Prieto Linares                                  |
 // | All rights reserved.                                                  |
 // |                                                                       |
 // | Redistribution and use in source and binary forms, with or without    |
@@ -29,7 +29,7 @@
 // | OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.  |
 // |                                                                       |
 // +-----------------------------------------------------------------------+
-// | Author: Bertrand Mansion <bmansion@mamasam.com>                       |
+// | Author: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                       |
 // |         Stephan Schmidt <schst@php.net>                               |
 // +-----------------------------------------------------------------------+
 //
@@ -56,7 +56,7 @@ define('EVENT_NOTIFICATION_STATE_CANCELLED', 1);
  * 
  * @category   Event
  * @package    Event_Dispatcher
- * @author     Bertrand Mansion <bmansion@mamasam.com>
+ * @author     Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
  * @author     Stephan Schmidt <schst@php.net>
  * @copyright  1997-2005 The PHP Group
  * @license    http://www.opensource.org/licenses/bsd-license.php BSD License

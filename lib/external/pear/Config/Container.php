@@ -12,7 +12,7 @@
 // | obtain it through the world-wide-web, please send a note to         |
 // | license@php.net so we can mail you a copy immediately.              |
 // +---------------------------------------------------------------------+
-// | Author: Bertrand Mansion <bmansion@mamasam.com>                     |
+// | Author: Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>                     |
 // +---------------------------------------------------------------------+
 //
 // $Id: Container.php 306597 2010-12-24 05:11:09Z aharvey $
@@ -22,7 +22,7 @@
 /**
 * Interface for Config containers
 *
-* @author   Bertrand Mansion <bmansion@mamasam.com>
+* @author   Jorge Fidel Prieto Linares <jorgefprietol@gmail.com>
 * @package  Config
 */
 class Config_Container {

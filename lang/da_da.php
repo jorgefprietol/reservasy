@@ -151,7 +151,7 @@ class da_da extends en_gb
         $strings['ResourceMaxNotice'] = 'Reservation kan ikke stoppe tidligere end %s fra aktuel tid';
         $strings['ResourceMaxNoticeNone'] = 'Reservationer kan slutte på ethvert tidspunkt i fremtiden';
 		$strings['ResourceBufferTime'] = 'Det skal være %s mellem reservationer';
-		$strings['ResourceBufferTimeNone'] = 'Der er ingen buffer mellem reservasjoner';
+		$strings['ResourceBufferTimeNone'] = 'Der er ingen buffer mellem Capacitacionesjoner';
         $strings['ResourceAllowMultiDay'] = 'Reservation kan ske i løbet af dage';
         $strings['ResourceNotAllowMultiDay'] = 'Reservation kan ikke foretages over dage';
         $strings['ResourceCapacity'] = 'Denne service har en kapacitet på %s personer';

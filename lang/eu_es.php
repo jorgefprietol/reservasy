@@ -302,7 +302,7 @@ class eu_es extends en_gb
 		$strings['Approving'] = 'Onartzen';
 		$strings['MoveToSchedule'] = 'Koadrantera mugitu';
 		$strings['DeleteResourceWarning'] = 'Baliabide hau ezabatzean erlazionatutako datu guztiak ezabatuko dira, hau barne:';
-		$strings['DeleteResourceWarningReservations'] = 'erlazionatutako erreserba guztiak, pasatutakoak, oraingoak eta etorkizunekoaktodos las reservas pasadas, actuales y futuras asociadas';
+		$strings['DeleteResourceWarningReservations'] = 'erlazionatutako erreserba guztiak, pasatutakoak, oraingoak eta etorkizunekoaktodos las Capacitaciones pasadas, actuales y futuras asociadas';
 		$strings['DeleteResourceWarningPermissions'] = 'baimen esleipen guztiak';
 		$strings['DeleteResourceWarningReassign'] = 'Mesedez, jarraitu baino lehen, esleitu berriro ezabatzea nahi ez duzuna';
 		$strings['ScheduleLayout'] = 'Distribución horaria (todas las veces %s)';

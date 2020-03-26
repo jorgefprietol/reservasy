@@ -39,7 +39,7 @@ along with Agenda Capacitaciones Yanbal.  If not, see <http://www.gnu.org/licens
 
 	{if $RequiresApproval}
 		<br/>
-		Um ou mais recursos necessitam de aprova��o antes do seu uso. Essa reserva ficar� pendente at� que a mesma seja aprovada.
+		Um ou mais Salas necessitam de aprova��o antes do seu uso. Essa reserva ficar� pendente at� que a mesma seja aprovada.
 	{/if}
 
 	<br/>

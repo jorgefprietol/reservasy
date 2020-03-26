@@ -73,10 +73,10 @@ class pt_br extends en_gb
     $strings['Registration'] = 'Registro';
     $strings['NoAnnouncements'] = 'Não há anúncios';
     $strings['Announcements'] = 'Anúncios';
-    $strings['NoUpcomingReservations'] = 'Você não tem reservas futuras';
-    $strings['UpcomingReservations'] = 'Reservas Futuras';
-    $strings['AllNoUpcomingReservations'] = 'Não existem reservas futuras';
-    $strings['AllUpcomingReservations'] = 'Todas as reservas futuras';
+    $strings['NoUpcomingReservations'] = 'Você não tem Capacitaciones futuras';
+    $strings['UpcomingReservations'] = 'Capacitaciones Futuras';
+    $strings['AllNoUpcomingReservations'] = 'Não existem Capacitaciones futuras';
+    $strings['AllUpcomingReservations'] = 'Todas as Capacitaciones futuras';
     $strings['ShowHide'] = 'Mostrar/Esconder';
     $strings['Error'] = 'Erro';
     $strings['ReturnToPreviousPage'] = 'Retornar para a última página que você estava';
@@ -118,7 +118,7 @@ class pt_br extends en_gb
     $strings['NextWeek'] = 'Próxima Semana';
     $strings['SignOut'] = 'Sair';
     $strings['LayoutDescription'] = 'Inicia em %s, mostrando %s dias de uma só vez';
-    $strings['AllResources'] = 'Todos os Recursos';
+    $strings['AllResources'] = 'Todos os Salas';
     $strings['TakeOffline'] = 'Colocar Offline';
     $strings['BringOnline'] = 'Colocar Online';
     $strings['AddImage'] = 'Adicionar Imagem';
@@ -136,22 +136,22 @@ class pt_br extends en_gb
     $strings['NoTitleLabel'] = '(Nenhum título)';
     $strings['UsageConfiguration'] = 'Configuração de Uso';
     $strings['ChangeConfiguration'] = 'Alterar Configuração';
-    $strings['ResourceMinLength'] = 'As reservas devem durar pelo menos %s';
+    $strings['ResourceMinLength'] = 'As Capacitaciones devem durar pelo menos %s';
     $strings['ResourceMinLengthNone'] = 'Não há uma duração mínima de reserva';
-    $strings['ResourceMaxLength'] = 'As reservas não podem durar mais de %s';
+    $strings['ResourceMaxLength'] = 'As Capacitaciones não podem durar mais de %s';
     $strings['ResourceMaxLengthNone'] = 'Não há uma duração máxima de reserva';
-    $strings['ResourceRequiresApproval'] = 'As reservas devem ser aprovadas';
-    $strings['ResourceRequiresApprovalNone'] = 'Reservas não necessitam de aprovação';
+    $strings['ResourceRequiresApproval'] = 'As Capacitaciones devem ser aprovadas';
+    $strings['ResourceRequiresApprovalNone'] = 'Capacitaciones não necessitam de aprovação';
     $strings['ResourcePermissionAutoGranted'] = 'A permissão é concedida automaticamente';
     $strings['ResourcePermissionNotAutoGranted'] = 'A permissão não é concedida automaticamente';
-    $strings['ResourceMinNotice'] = 'As reservas devem ser feitas pelo menos %s antes da hora de início';
-    $strings['ResourceMinNoticeNone'] = 'As reservas podem ser feitas até a hora atual';
-    $strings['ResourceMaxNotice'] = 'As reservas não deve terminar mais de %s a partir da hora atual';
-    $strings['ResourceMaxNoticeNone'] = 'As reservas podem acabar a qualquer momento no futuro';
-    $strings['ResourceBufferTime'] = 'Precisa ter %s entre as reservas';
-    $strings['ResourceBufferTimeNone'] = 'Não existem barreiras entre as reservas';
-    $strings['ResourceAllowMultiDay'] = 'As reservas podem ser feitas através de dias';
-    $strings['ResourceNotAllowMultiDay'] = 'As reservas não podem ser feitas através de dias';
+    $strings['ResourceMinNotice'] = 'As Capacitaciones devem ser feitas pelo menos %s antes da hora de início';
+    $strings['ResourceMinNoticeNone'] = 'As Capacitaciones podem ser feitas até a hora atual';
+    $strings['ResourceMaxNotice'] = 'As Capacitaciones não deve terminar mais de %s a partir da hora atual';
+    $strings['ResourceMaxNoticeNone'] = 'As Capacitaciones podem acabar a qualquer momento no futuro';
+    $strings['ResourceBufferTime'] = 'Precisa ter %s entre as Capacitaciones';
+    $strings['ResourceBufferTimeNone'] = 'Não existem barreiras entre as Capacitaciones';
+    $strings['ResourceAllowMultiDay'] = 'As Capacitaciones podem ser feitas através de dias';
+    $strings['ResourceNotAllowMultiDay'] = 'As Capacitaciones não podem ser feitas através de dias';
     $strings['ResourceCapacity'] = 'Este recurso tem uma capacidade de %s pessoas';
     $strings['ResourceCapacityNone'] = 'Esse recurso tem capacidade ilimitada';
     $strings['AddNewResource'] = 'Adicionar Novo Recurso';
@@ -168,8 +168,8 @@ class pt_br extends en_gb
     $strings['ResetPassword'] = 'Redefinir Senha';
     $strings['LastLogin'] = 'Último Acesso';
     $strings['Search'] = 'Pesquisar';
-    $strings['ResourcePermissions'] = 'Permissões de Recursos';
-    $strings['Reservations'] = 'Reservas';
+    $strings['ResourcePermissions'] = 'Permissões de Salas';
+    $strings['Reservations'] = 'Capacitaciones';
     $strings['Groups'] = 'Grupos';
     $strings['ResetPassword'] = 'Redefinir Senha';
     $strings['AllUsers'] = 'Todos os Usuários';
@@ -182,7 +182,7 @@ class pt_br extends en_gb
     $strings['CancelParticipation'] = 'Cancelar Participação';
     $strings['Attending'] = 'Atender';
     $strings['QuotaConfiguration'] = 'Em %s para %s usuários em %s estão limitados a %s %s por %s';
-    $strings['reservations'] = 'reservas';
+    $strings['reservations'] = 'Capacitaciones';
     $strings['reservation'] = 'reserva';
     $strings['ChangeCalendar'] = 'Alterar Calendário';
     $strings['AddQuota'] = 'Adicionar Cota';
@@ -202,14 +202,14 @@ class pt_br extends en_gb
     $strings['NotSignedIn'] = 'Você não está logado';
     $strings['ReservationTitle'] = 'Título da reserva';
     $strings['ReservationDescription'] = 'Descrição da reserva';
-    $strings['ResourceList'] = 'Recursos a serem reservados';
+    $strings['ResourceList'] = 'Salas a serem reservados';
     $strings['Accessories'] = 'Acessórios';
     $strings['Add'] = 'Adicionar';
     $strings['ParticipantList'] = 'Participantes';
     $strings['InvitationList'] = 'Convidados';
     $strings['AccessoryName'] = 'Nome do Acessório';
     $strings['QuantityAvailable'] = 'Quantidade Disponível';
-    $strings['Resources'] = 'Recursos';
+    $strings['Resources'] = 'Salas';
     $strings['Participants'] = 'Participantes';
     $strings['User'] = 'Usuário';
     $strings['Resource'] = 'Recurso';
@@ -262,25 +262,25 @@ class pt_br extends en_gb
     $strings['YourReferenceNumber'] = 'O seu número de referência é %s';
     $strings['UpdatingReservation'] = 'Atualizando Reserva';
     $strings['ChangeUser'] = 'Alterar Usuário';
-    $strings['MoreResources'] = 'Mais Recursos';
+    $strings['MoreResources'] = 'Mais Salas';
     $strings['ReservationLength'] = 'Duração da Reserva';
     $strings['ParticipantList'] = 'Lista de Participantes';
     $strings['AddParticipants'] = 'Adicionar Participantes';
     $strings['InviteOthers'] = 'Convidar Outros';
-    $strings['AddResources'] = 'Adicionar Recursos';
+    $strings['AddResources'] = 'Adicionar Salas';
     $strings['AddAccessories'] = 'Adicionar Acessórios';
     $strings['Accessory'] = 'Acessório';
     $strings['QuantityRequested'] = 'Quantidade Solicitada';
     $strings['CreatingReservation'] = 'Criação de Reserva';
     $strings['UpdatingReservation'] = 'Atualizando Reserva';
     $strings['DeleteWarning'] = 'Esta ação é permanente e irrecuperável!';
-    $strings['DeleteAccessoryWarning'] = 'Excluindo este acessório irá removê-lo de todas as reservas.';
+    $strings['DeleteAccessoryWarning'] = 'Excluindo este acessório irá removê-lo de todas as Capacitaciones.';
     $strings['AddAccessory'] = 'Adicionar Acessório';
     $strings['AddBlackout'] = 'Adicionar Horário Indisponível';
-    $strings['AllResourcesOn'] = 'Todos os recursos em';
+    $strings['AllResourcesOn'] = 'Todos os Salas em';
     $strings['Reason'] = 'Razão';
-    $strings['BlackoutShowMe'] = 'Mostre-me reservas conflitantes';
-    $strings['BlackoutDeleteConflicts'] = 'Excluir reservas conflitantes';
+    $strings['BlackoutShowMe'] = 'Mostre-me Capacitaciones conflitantes';
+    $strings['BlackoutDeleteConflicts'] = 'Excluir Capacitaciones conflitantes';
     $strings['Filter'] = 'Filtro';
     $strings['Between'] = 'Entre';
     $strings['CreatedBy'] = 'Criado Por';
@@ -292,19 +292,19 @@ class pt_br extends en_gb
     $strings['ReservationConflicts'] = 'Existem conflitos entre horários reservados.';
     $strings['UsersInGroup'] = 'Usuários neste grupo';
     $strings['Browse'] = 'Navegar';
-    $strings['DeleteGroupWarning'] = 'Excluindo este grupo irá remover todas as permissões de recursos associados. Os usuários deste grupo podem perder o acesso aos recursos.';
+    $strings['DeleteGroupWarning'] = 'Excluindo este grupo irá remover todas as permissões de Salas associados. Os usuários deste grupo podem perder o acesso aos Salas.';
     $strings['WhatRolesApplyToThisGroup'] = 'Que regras se aplicam a esse grupo?';
     $strings['WhoCanManageThisGroup'] = 'Quem pode gerenciar este grupo?';
     $strings['WhoCanManageThisSchedule'] = 'Quem pode gerenciar essa agenda?';
     $strings['AddGroup'] = 'Adicionar Grupo';
     $strings['AllQuotas'] = 'Todas as Cotas';
     $strings['QuotaReminder'] = 'Lembre-se: As cotas são aplicadas com base no fuso horário da agenda.';
-    $strings['AllReservations'] = 'Todas as Reservas';
-    $strings['PendingReservations'] = 'Reservas Pendentes';
+    $strings['AllReservations'] = 'Todas as Capacitaciones';
+    $strings['PendingReservations'] = 'Capacitaciones Pendentes';
     $strings['Approving'] = 'Aprovar';
     $strings['MoveToSchedule'] = 'Mover para agenda';
     $strings['DeleteResourceWarning'] = 'Excluindo este recurso irá apagar todos os dados associados, incluindo';
-    $strings['DeleteResourceWarningReservations'] = 'todas as reservas passadas, atuais e futuras associados';
+    $strings['DeleteResourceWarningReservations'] = 'todas as Capacitaciones passadas, atuais e futuras associados';
     $strings['DeleteResourceWarningPermissions'] = 'todas as atribuições de permissão';
     $strings['DeleteResourceWarningReassign'] = 'Por favor, reatribuir qualquer coisa que você não queira que seja eliminado antes de prosseguir';
     $strings['ScheduleLayout'] = 'Layout (todos os horários %s)';
@@ -324,21 +324,21 @@ class pt_br extends en_gb
     $strings['LayoutInstructions'] = 'Digite uma faixa por linha. Faixas devem ser fornecidas para todas as 24 horas do dia começando e terminando às 12:00.';
     $strings['AddUser'] = 'Adicionar Usuário';
     $strings['UserPermissionInfo'] = 'O acesso efetivo ao recurso pode ser diferente dependendo da função do usuário, permissões de grupo, ou definições de permissões externas';
-    $strings['DeleteUserWarning'] = 'Excluir este usuário irá remover todas as suas reservas atuais, futuros e histórico.';
+    $strings['DeleteUserWarning'] = 'Excluir este usuário irá remover todas as suas Capacitaciones atuais, futuros e histórico.';
     $strings['AddAnnouncement'] = 'Adicionar Anúncio';
     $strings['Announcement'] = 'Anúncio';
     $strings['Priority'] = 'Prioridade';
     $strings['Reservable'] = 'Reservável';
     $strings['Unreservable'] = 'Não Reservável';
     $strings['Reserved'] = 'Reservados';
-    $strings['MyReservation'] = 'Minhas Reservas';
+    $strings['MyReservation'] = 'Minhas Capacitaciones';
     $strings['Pending'] = 'Pendente';
     $strings['Past'] = 'Passado';
     $strings['Restricted'] = 'Restrito';
     $strings['ViewAll'] = 'Ver Todos';
-    $strings['MoveResourcesAndReservations'] = 'Mover recursos e reservas para';
-    $strings['TurnOffSubscription'] = 'Desabilitar reservas no calendário';
-    $strings['TurnOnSubscription'] = 'Permitir reservas no calendário';
+    $strings['MoveResourcesAndReservations'] = 'Mover Salas e Capacitaciones para';
+    $strings['TurnOffSubscription'] = 'Desabilitar Capacitaciones no calendário';
+    $strings['TurnOnSubscription'] = 'Permitir Capacitaciones no calendário';
     $strings['SubscribeToCalendar'] = 'Aderir a este calendário';
     $strings['SubscriptionsAreDisabled'] = 'O calendário foi desabilitado pelo administrador';
     $strings['NoResourceAdministratorLabel'] = '(Nenhum administrador do recurso)';
@@ -402,12 +402,12 @@ class pt_br extends en_gb
     $strings['Choose'] = 'Escolher';
     $strings['All'] = 'Todos';
     $strings['ViewAsChart'] = 'Visualizar Gráfico';
-    $strings['ReservedResources'] = 'Recursos Reservados';
+    $strings['ReservedResources'] = 'Salas Reservados';
     $strings['ReservedAccessories'] = 'Acessórios Reservados';
-    $strings['ResourceUsageTimeBooked'] = 'Uso de Recursos - Tempo Reservado';
-    $strings['ResourceUsageReservationCount'] = 'Uso de Recursos - Contagem de Reservas';
+    $strings['ResourceUsageTimeBooked'] = 'Uso de Salas - Tempo Reservado';
+    $strings['ResourceUsageReservationCount'] = 'Uso de Salas - Contagem de Capacitaciones';
     $strings['Top20UsersTimeBooked'] = 'Top 20 Usuários - Tempo Reservado';
-    $strings['Top20UsersReservationCount'] = 'Top 20 Usuários - Contagem de Reservas';
+    $strings['Top20UsersReservationCount'] = 'Top 20 Usuários - Contagem de Capacitaciones';
     $strings['ConfigurationUpdated'] = 'O arquivo de configuração foi atualizado';
     $strings['ConfigurationUiNotEnabled'] = 'Esta página não pode ser acessada. A $conf[\'settings\'][\'pages\'][\'enable.configuration\'] está marcada como falsa.';
     $strings['ConfigurationFileNotWritable'] = 'O arquivo de configuração não pode ser escrito. Por favor verifique as permissões desde arquivo e tente novamente.';
@@ -443,18 +443,18 @@ class pt_br extends en_gb
     $strings['Next'] = 'Próximo';
     $strings['Success'] = 'Successo';
     $strings['Participant'] = 'Participantes';
-    $strings['ResourceFilter'] = 'Filtro de recursos';
-    $strings['ResourceGroups'] = 'Grupos de recursos';
+    $strings['ResourceFilter'] = 'Filtro de Salas';
+    $strings['ResourceGroups'] = 'Grupos de Salas';
     $strings['AddNewGroup'] = 'Adicione um novo grupo';
     $strings['Quit'] = 'Sair';
     $strings['StandardScheduleDisplay'] = 'Use a exibição padrão da agenda';
     $strings['TallScheduleDisplay'] = 'Use a exibição de altura da agenda';
     $strings['WideScheduleDisplay'] = 'Use a exibição de largura da agenda';
     $strings['CondensedWeekScheduleDisplay'] = 'Use a exibição condensada da semana da agenda';
-    $strings['ResourceGroupHelp1'] = 'Arraste e solte um grupo de recursos para reorganizar.';
-    $strings['ResourceGroupHelp2'] = 'Clique com o botão direito no nome de um grupo de recursos para ações adicionais.';
-    $strings['ResourceGroupHelp3'] = 'Arraste e solte recursos para adicioná-los aos grupos.';
-    $strings['ResourceGroupWarning'] = 'Se estiver usando grupos de recursos, cada recurso deve estar atribuído em pelo menos um grupo. Recursos não atribuídos não poderão ser reservados.';
+    $strings['ResourceGroupHelp1'] = 'Arraste e solte um grupo de Salas para reorganizar.';
+    $strings['ResourceGroupHelp2'] = 'Clique com o botão direito no nome de um grupo de Salas para ações adicionais.';
+    $strings['ResourceGroupHelp3'] = 'Arraste e solte Salas para adicioná-los aos grupos.';
+    $strings['ResourceGroupWarning'] = 'Se estiver usando grupos de Salas, cada recurso deve estar atribuído em pelo menos um grupo. Salas não atribuídos não poderão ser reservados.';
     $strings['ResourceType'] = 'Tipo de recurso';
     $strings['AppliesTo'] = 'Aplicar para';
     $strings['UniquePerInstance'] = 'Único por instância';
@@ -468,9 +468,9 @@ class pt_br extends en_gb
     $strings['Hidden'] = 'Oculto';
     $strings['ResourceStatus'] = 'Situação do recurso';
     $strings['CurrentStatus'] = 'Situação atual';
-    $strings['AllReservationResources'] = 'Todos os recursos reservados';
+    $strings['AllReservationResources'] = 'Todos os Salas reservados';
     $strings['File'] = 'Arquivo';
-    $strings['BulkResourceUpdate'] = 'Atualização de recursos em massa';
+    $strings['BulkResourceUpdate'] = 'Atualização de Salas em massa';
     $strings['Unchanged'] = 'Inalterado';
     $strings['Common'] = 'Comum';
 	$strings['AdvancedFilter'] = 'Filtro avançado';
@@ -534,8 +534,8 @@ class pt_br extends en_gb
     $strings['MinDurationError'] = 'Esta reserva deve durar pelo menos %s.';
     $strings['MaxDurationError'] = 'Esta reserva não pode durar mais do que %s.';
     $strings['ConflictingAccessoryDates'] = 'Não são suficientes os seguintes acessórios:';
-    $strings['NoResourcePermission'] = 'Você não tem permissão para acessar um ou mais dos recursos solicitados';
-    $strings['ConflictingReservationDates'] = 'Há reservas conflitantes nas seguintes datas:';
+    $strings['NoResourcePermission'] = 'Você não tem permissão para acessar um ou mais dos Salas solicitados';
+    $strings['ConflictingReservationDates'] = 'Há Capacitaciones conflitantes nas seguintes datas:';
     $strings['StartDateBeforeEndDateRule'] = 'A data de início deve ser anterior à data de término';
     $strings['StartIsInPast'] = 'A data de início não pode ser no passado';
     $strings['EmailDisabled'] = 'O administrador desabilitou notificações de e-mail';
@@ -552,7 +552,7 @@ class pt_br extends en_gb
     $strings['InvalidStartReminderTime'] = 'O horário de início do lembrete não é válido.';
     $strings['InvalidEndReminderTime'] = 'O horário de término do lembrete não é válido.';
     $strings['QuotaExceeded'] = 'Limite da cota excedido.';
-    $strings['MultiDayRule'] = '%s não permite reservas neste intervalo de dias.';
+    $strings['MultiDayRule'] = '%s não permite Capacitaciones neste intervalo de dias.';
     $strings['InvalidReservationData'] = 'Houve um problema no seu pedido de reserva.';
     $strings['PasswordError'] = 'A senha deve conter pelo menos %s letras e pelo menos %s números.';
     $strings['PasswordErrorRequirements'] = 'A senha deve conter uma combinação de pelo menos %s letras em caixa alte e baixa e %s números.';
@@ -560,14 +560,14 @@ class pt_br extends en_gb
     // End Errors
 
     // Page Titles
-    $strings['CreateReservation'] = 'Criar Reservas';
-    $strings['EditReservation'] = 'Editar Reservas';
+    $strings['CreateReservation'] = 'Criar Capacitaciones';
+    $strings['EditReservation'] = 'Editar Capacitaciones';
     $strings['LogIn'] = 'Entrar';
-    $strings['ManageReservations'] = 'Reservas';
+    $strings['ManageReservations'] = 'Capacitaciones';
     $strings['AwaitingActivation'] = 'Aguardando Ativação';
     $strings['PendingApproval'] = 'Aguardando Aprovação';
     $strings['ManageSchedules'] = 'Agendas';
-    $strings['ManageResources'] = 'Recursos';
+    $strings['ManageResources'] = 'Salas';
     $strings['ManageAccessories'] = 'Acessórios';
     $strings['ManageUsers'] = 'Usuários';
     $strings['ManageGroups'] = 'Grupos';
@@ -579,15 +579,15 @@ class pt_br extends en_gb
     $strings['Help'] = 'Ajuda';
     $strings['Administration'] = 'Administração';
     $strings['About'] = 'Sobre';
-    $strings['Bookings'] = 'Reservas';
+    $strings['Bookings'] = 'Capacitaciones';
     $strings['Schedule'] = 'Agenda';
-    $strings['Reservations'] = 'Reservas';
+    $strings['Reservations'] = 'Capacitaciones';
     $strings['Account'] = 'Conta';
     $strings['EditProfile'] = 'Editar Meu Perfil';
     $strings['FindAnOpening'] = 'Encontrar Uma Abertura';
     $strings['OpenInvitations'] = 'Abrir Convites';
     $strings['MyCalendar'] = 'Meu Calendário';
-    $strings['ResourceCalendar'] = 'Calendário de Recursos';
+    $strings['ResourceCalendar'] = 'Calendário de Salas';
     $strings['Reservation'] = 'Nova Reserva';
     $strings['Install'] = 'Instalação';
     $strings['ChangePassword'] = 'Alterar Senha';
@@ -598,12 +598,12 @@ class pt_br extends en_gb
     $strings['NotificationPreferences'] = 'Preferências de Notificação';
     $strings['ManageAnnouncements'] = 'Anúncios';
     $strings['Responsibilities'] = 'Responsabilidades';
-    $strings['GroupReservations'] = 'Reservas por Grupos';
-    $strings['ResourceReservations'] = 'Reservas de Recursos';
+    $strings['GroupReservations'] = 'Capacitaciones por Grupos';
+    $strings['ResourceReservations'] = 'Capacitaciones de Salas';
     $strings['Customization'] = 'Personalização';
     $strings['Attributes'] = 'Atributos';
     $strings['AccountActivation'] = 'Ativação de Conta';
-    $strings['ScheduleReservations'] = 'Reservas na Agenda';
+    $strings['ScheduleReservations'] = 'Capacitaciones na Agenda';
     $strings['Reports'] = 'Relatórios';
     $strings['GenerateReport'] = 'Criar Novo Relatório';
     $strings['MySavedReports'] = 'Meus Relatórios Salvos';
@@ -612,9 +612,9 @@ class pt_br extends en_gb
     $strings['Group'] = 'Grupo';
     $strings['ManageConfiguration'] = 'Configurar Aplicação';
     $strings['LookAndFeel'] = 'Temas';
-    $strings['ManageResourceGroups'] = 'Grupo de recursos';
-    $strings['ManageResourceTypes'] = 'Tipos de recursos';
-    $strings['ManageResourceStatus'] = 'Situação dos recursos';
+    $strings['ManageResourceGroups'] = 'Grupo de Salas';
+    $strings['ManageResourceTypes'] = 'Tipos de Salas';
+    $strings['ManageResourceStatus'] = 'Situação dos Salas';
     // End Page Titles
 
     // Day representations
@@ -680,7 +680,7 @@ class pt_br extends en_gb
     $strings['Minutes'] = 'Minutos';
     $strings['SpecificTime'] = 'Tempo específico';
     $strings['NewVersion'] = 'Nova versão';
-    $strings['AnyResource'] = 'Todos os recursos';
+    $strings['AnyResource'] = 'Todos os Salas';
     $strings['MoreOptions'] = 'Mais opções';
     //End Schedule 
     
@@ -688,7 +688,7 @@ class pt_br extends en_gb
     //Cleanup data
     $strings['ManageEmailTemplates'] = 'Modelo de email';
     $strings['DataCleanup'] = 'Limpeza de dados';
-    $strings['DeleteReservationsBefore'] = 'Excluir reservas anteriores a';
+    $strings['DeleteReservationsBefore'] = 'Excluir Capacitaciones anteriores a';
     $strings['Purge'] = 'Excluir definitivamente';
     $strings['Users'] = 'Usuários';
     $strings['DeletedReservations'] = 'Reserva(s) excluída(s)';
@@ -698,7 +698,7 @@ class pt_br extends en_gb
     //Reservations
     $strings['NameOrEmail'] = 'Nome ou email';
     $strings['Guest'] = 'Convidados'; 
-    $strings['ReservationSeriesEndingPreference'] = 'Quando minha série de reservas recorrentes está terminando';
+    $strings['ReservationSeriesEndingPreference'] = 'Quando minha série de Capacitaciones recorrentes está terminando';
     $strings['CheckingAvailability']='Visualizar disponibilidade';    
     //End reservations 
     
@@ -706,7 +706,7 @@ class pt_br extends en_gb
     $strings['SearchReservations'] = 'Procure uma reserva';
     $strings['Day'] = 'Dia';
     //Reservations
-    $strings['NoResources'] = 'Você não adicionou recursos.';
+    $strings['NoResources'] = 'Você não adicionou Salas.';
     $strings['More'] = 'Mais';
     $strings['AddToGoogleCalendar'] = 'Adicionar ao Google';
     $strings['DuplicateReservation'] = 'Duplicar';
@@ -721,15 +721,15 @@ class pt_br extends en_gb
     $strings['Image'] = 'Imagem';
     $strings['Copy'] = 'Copiar';
     $strings['NoCheckInRequiredNotification'] = 'Não requere check in/out';
-    $strings['ImportResources'] = 'Importar recursos';
-    $strings['ExportResources'] = 'Exportar recursos';
-    $strings['BulkResourceDelete'] = 'Excluir recursos em massa';
+    $strings['ImportResources'] = 'Importar Salas';
+    $strings['ExportResources'] = 'Exportar Salas';
+    $strings['BulkResourceDelete'] = 'Excluir Salas em massa';
     //End Resources
     
     //Access
-    $strings['ResourceMinNoticeNoneUpdate'] = 'As reservas podem ser atualizadas até a hora atual';
-    $strings['ResourceMinNoticeNoneDelete'] ='As reservas podem ser excluídas até a hora atual'; 
-    $strings['ResourceMinNoticeDelete'] = 'As reservas devem ser excluídas pelo menos 2 dias antes da hora de início';
+    $strings['ResourceMinNoticeNoneUpdate'] = 'As Capacitaciones podem ser atualizadas até a hora atual';
+    $strings['ResourceMinNoticeNoneDelete'] ='As Capacitaciones podem ser excluídas até a hora atual'; 
+    $strings['ResourceMinNoticeDelete'] = 'As Capacitaciones devem ser excluídas pelo menos 2 dias antes da hora de início';
     $strings['RequiresCheckInNotification'] = 'Requer check in/out';
     $strings['AutoReleaseNotification'] = 'Liberado automaticamente se não for verificado em 30 minutos';
     $strings['ChooseOrDropFile'] = 'Escolha um arquivo ou arraste-o aqui';
@@ -739,11 +739,11 @@ class pt_br extends en_gb
     
     
     //Gerenciamento de Aplicativos
-    //Reservas
+    //Capacitaciones
     $strings['MissedCheckin'] = 'Checkin perdido';
     $strings['MissedCheckout'] = 'Checkout perdido';
     $strings['AllResourceStatuses'] = 'Todos os status do recurso';
-    $strings['AllResourceTypes'] = 'Todos os tipos de recursos';
+    $strings['AllResourceTypes'] = 'Todos os tipos de Salas';
     $strings['Attribute'] = 'Attribute';
     $strings['Export'] = 'Exportar';
     $strings['TermsOfService'] = 'Termos do serviço';
@@ -755,13 +755,13 @@ class pt_br extends en_gb
     $strings['ReservationCustomRuleAdd'] = 'Use esta cor quando o atributo de reserva estiver definido com o seguinte valor:';
 
     //Horários indisponíveis
-    $strings['BlackoutAroundConflicts'] = 'Indisponibilizar reservas conflitantes';
+    $strings['BlackoutAroundConflicts'] = 'Indisponibilizar Capacitaciones conflitantes';
     
     //Cotas
     $strings['AllDay'] = 'O dia inteiro';
     $strings['Everyday'] = 'Todos os dias';
-    $strings['IncludingCompletedReservations'] = 'Incluir reservas concluídas';
-    $strings['NotCountingCompletedReservations'] = 'Não incluir reservas concluídas';
+    $strings['IncludingCompletedReservations'] = 'Incluir Capacitaciones concluídas';
+    $strings['NotCountingCompletedReservations'] = 'Não incluir Capacitaciones concluídas';
     $strings['QuotaEnforcement'] = 'Forçar %s %s';
     
     //Schedules
@@ -770,8 +770,8 @@ class pt_br extends en_gb
     $strings['Availability'] = 'Disponibilidade';
     $strings['AvailableAllYear'] = 'Ano inteiro';
     $strings['AvailableBetween'] = 'Disponível entre';
-    $strings['ConcurrentYes'] = 'Recursos podem ser reservados por mais de uma pessoa de cada vez';
-    $strings['ConcurrentNo'] = 'Recursos não podem ser reservados por mais de uma pessoa de cada vez';
+    $strings['ConcurrentYes'] = 'Salas podem ser reservados por mais de uma pessoa de cada vez';
+    $strings['ConcurrentNo'] = 'Salas não podem ser reservados por mais de uma pessoa de cada vez';
     $strings['DefaultStyle'] = 'Estilo padrão';
     $strings['Standard'] = 'Padrão';
     $strings['Wide'] = 'Largo';
@@ -803,7 +803,7 @@ class pt_br extends en_gb
     $strings['CollectedFor'] = 'Coletado para';
     
     //Relatórios
-    $strings['IncludeDeleted'] = 'Inclui reservas removidas';
+    $strings['IncludeDeleted'] = 'Inclui Capacitaciones removidas';
     $strings['Utilization'] = 'Utilização';
     
     $strings['UpdateUsersOnImport'] = 'Atualizar usuário existente se o email já existir';
@@ -818,7 +818,7 @@ class pt_br extends en_gb
     $strings['ImportICS'] = 'Importar de ICS';
     $strings['ImportQuartzy'] = 'Importar de Quartzy';
     $strings['OnlyIcs'] = 'Somente arquivos *.ics podem se importados.';
-    $strings['IcsLocationsAsResources'] = 'Locais serão importados como recursos.';
+    $strings['IcsLocationsAsResources'] = 'Locais serão importados como Salas.';
     $strings['IcsMissingOrganizer'] = 'Qualquer evento que não tenha um organizador terá o proprietário configurado para o usuário atual.';                               
     $strings['IcsWarning'] = 'As regras de reserva não serão aplicadas se houver conflitos, duplicatas, etc.';
     $strings['DeleteBlackoutsBefore'] = 'Excluir horários indisponíveis antes de ';

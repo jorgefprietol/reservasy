@@ -179,7 +179,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 				<?php if ($_smarty_tpl->tpl_vars['ShowForgotPasswordPrompt']->value) {?>
 					<div id="forgot-password" class="col-xs-12 col-sm-6">
 						<a href="<?php echo $_smarty_tpl->tpl_vars['ForgotPasswordUrl']->value;?>
-" <?php echo $_smarty_tpl->tpl_vars['ForgotPasswordUrlNew']->value;?>
+" <?php echo $_smarty_tpl->tpl_vars['ForgotPasswordUrlNew']->value;?>7777777777777
  class="btn btn-link pull-left-sm"><span><i
 										class="glyphicon glyphicon-question-sign"></i></span> <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['translate'][0][0]->SmartyTranslate(array('key'=>'ForgotMyPassword'),$_smarty_tpl);?>
 </a>
