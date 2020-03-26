@@ -495,7 +495,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 
                         <div id="reservationAttachments">
                             <div class="attachment-item">
-                                <label for="reservationUploadFile">Archivo Fisica de asistencia</label>
+                                <label for="reservationUploadFile">Archivo Fisico de asistencia</label>
                                 <input type="file" <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['formname'][0][0]->GetFormName(array('key'=>'RESERVATION_FILE','multi'=>true),$_smarty_tpl);?>
 
                                        id="reservationUploadFile"/>
