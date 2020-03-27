@@ -1,15 +1,15 @@
 <?php
-/* Smarty version 3.1.30, created on 2020-02-05 00:10:30
+/* Smarty version 3.1.30, created on 2020-03-26 23:39:48
   from "D:\xampp\htdocs\yanbal\tpl\login.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5e39f9e618aa45_82649793',
+  'unifunc' => 'content_5e7d2f34bec338_89774883',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '96959be0f5e09f2962394d1b5367262926e55e47' => 
+    'dca70e03c4f12d2668cb012f58f657418921a0fa' => 
     array (
       0 => 'D:\\xampp\\htdocs\\yanbal\\tpl\\login.tpl',
       1 => 1580159806,
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:globalfooter.tpl' => 1,
   ),
 ),false)) {
-function content_5e39f9e618aa45_82649793 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5e7d2f34bec338_89774883 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <?php $_smarty_tpl->_subTemplateRender("file:globalheader.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
@@ -193,6 +193,7 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 						</a>
 					</div>
 				<?php }?>
+
 				<?php if ($_smarty_tpl->tpl_vars['ShowForgotPasswordPrompt']->value) {?>
 					<div id="forgot-password" class="col-xs-12 col-sm-6">
 						<a href="<?php echo $_smarty_tpl->tpl_vars['ForgotPasswordUrl']->value;?>
@@ -218,7 +219,6 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl);
 				</div>
 			</div>
 			<div id="login-footer" class="col-xs-12">
-
 
 			</div>
 
